@@ -1,0 +1,42 @@
+{
+ "succeeded": true,
+ "result": [
+  {
+   "id": 279191,
+   "type": "Series",
+   "caption": "رازهای ماندگاری",
+   "slug": null,
+   "imageUrl": "/Content/Upload/Images/003a700a-7a95-47d2-be29-a432f69b321b.jpg",
+   "rentDuration": null,
+   "contentPlayAccessType": "None",
+   "horizontalPosterImageUrl": null,
+   "imageUrlTV": null,
+   "unknownDatePublish": false
+  },
+  {
+   "id": 272343,
+   "type": "Series",
+   "caption": "کوری",
+   "slug": null,
+   "imageUrl": "/Content/Upload/Images/452045c9-d5bc-461c-9498-7765bd7efb90.jpg",
+   "rentDuration": null,
+   "contentPlayAccessType": "None",
+   "horizontalPosterImageUrl": null,
+   "imageUrlTV": null,
+   "unknownDatePublish": false
+  },
+  {
+   "id": 272394,
+   "type": "Series",
+   "caption": "فوتبال پارادیزو",
+   "slug": null,
+   "imageUrl": "/Content/Upload/Images/533dde84-91f4-4a3e-b41a-b70b11ed278b.jpg",
+   "rentDuration": null,
+   "contentPlayAccessType": "None",
+   "horizontalPosterImageUrl": null,
+   "imageUrlTV": null,
+   "unknownDatePublish": false
+  }
+ ],
+ "error": null
+}

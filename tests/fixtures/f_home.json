@@ -1,0 +1,1367 @@
+{
+ "data": [
+  {
+   "type": "Row",
+   "id": 3,
+   "attributes": {
+    "id": 3,
+    "tag_id": 12097123,
+    "output_type": "movie",
+    "theme": "thumbplay",
+    "more_type": "grid",
+    "line_count": 3,
+    "showSerialParent": false,
+    "link_to_episode": true,
+    "link_type": "list",
+    "link_key": 12097123,
+    "show_all": true,
+    "has_downvote": null,
+    "list_tag_id": "1",
+    "link_to_status_tag_id": 1133,
+    "link_text": "ویژه",
+    "use_special": "only",
+    "show_extra_info": true
+   },
+   "relationships": {
+    "headersliders": {
+     "data": []
+    },
+    "webinapps": {
+     "data": []
+    },
+    "taglists": {
+     "data": []
+    },
+    "movies": {
+     "data": [
+      {
+       "type": "movies",
+       "id": 194110
+      },
+      {
+       "type": "movies",
+       "id": 181769
+      },
+      {
+       "type": "movies",
+       "id": 194114
+      },
+      {
+       "type": "movies",
+       "id": 177974
+      }
+     ]
+    },
+    "livetvs": {
+     "data": []
+    },
+    "posters": {
+     "data": []
+    },
+    "shorts": {
+     "data": []
+    },
+    "crews": {
+     "data": []
+    },
+    "buttonlists": {
+     "data": []
+    },
+    "menus": {
+     "data": []
+    },
+    "customhtmls": {
+     "data": []
+    },
+    "listinfos": {
+     "data": []
+    },
+    "alerts": {
+     "data": []
+    }
+   }
+  },
+  {
+   "type": "Row",
+   "id": 6,
+   "attributes": {
+    "id": 6,
+    "tag_id": "2001936",
+    "output_type": "movie",
+    "theme": "thumbnail",
+    "more_type": "slider",
+    "line_count": 1,
+    "showSerialParent": false,
+    "link_to_episode": null,
+    "link_type": "list",
+    "link_key": "comedyplus",
+    "show_all": true,
+    "has_downvote": false,
+    "list_tag_id": "1",
+    "link_text": "کمدی پلاس"
+   },
+   "relationships": {
+    "headersliders": {
+     "data": []
+    },
+    "webinapps": {
+     "data": []
+    },
+    "taglists": {
+     "data": []
+    },
+    "movies": {
+     "data": [
+      {
+       "type": "movies",
+       "id": 7594
+      },
+      {
+       "type": "movies",
+       "id": 805
+      },
+      {
+       "type": "movies",
+       "id": 2515
+      },
+      {
+       "type": "movies",
+       "id": 136090
+      }
+     ]
+    },
+    "livetvs": {
+     "data": []
+    },
+    "posters": {
+     "data": []
+    },
+    "shorts": {
+     "data": []
+    },
+    "crews": {
+     "data": []
+    },
+    "buttonlists": {
+     "data": []
+    },
+    "menus": {
+     "data": []
+    },
+    "customhtmls": {
+     "data": []
+    },
+    "listinfos": {
+     "data": []
+    },
+    "alerts": {
+     "data": []
+    }
+   }
+  },
+  {
+   "type": "Row",
+   "id": 11,
+   "attributes": {
+    "id": 11,
+    "tag_id": 1000060,
+    "output_type": "movie",
+    "theme": "thumbnail",
+    "more_type": "slider",
+    "line_count": 1,
+    "showSerialParent": true,
+    "link_to_episode": null,
+    "link_type": "list",
+    "link_key": 1000060,
+    "show_all": true,
+    "has_downvote": null,
+    "list_tag_id": "1",
+    "link_text": "کمدی"
+   },
+   "relationships": {
+    "headersliders": {
+     "data": []
+    },
+    "webinapps": {
+     "data": []
+    },
+    "taglists": {
+     "data": []
+    },
+    "movies": {
+     "data": [
+      {
+       "type": "movies",
+       "id": 175363
+      },
+      {
+       "type": "movies",
+       "id": 94069
+      },
+      {
+       "type": "movies",
+       "id": 151095
+      },
+      {
+       "type": "movies",
+       "id": 183100
+      }
+     ]
+    },
+    "livetvs": {
+     "data": []
+    },
+    "posters": {
+     "data": []
+    },
+    "shorts": {
+     "data": []
+    },
+    "crews": {
+     "data": []
+    },
+    "buttonlists": {
+     "data": []
+    },
+    "menus": {
+     "data": []
+    },
+    "customhtmls": {
+     "data": []
+    },
+    "listinfos": {
+     "data": []
+    },
+    "alerts": {
+     "data": []
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "movies",
+   "id": 194110,
+   "attributes": {
+    "id": "194110",
+    "link_type": "movie",
+    "link_key": "ykcod",
+    "theme": "thumbplay",
+    "output_type": "movie",
+    "movie_id": "194110",
+    "uid": "ykcod",
+    "movie_title": "سرخ و سیاه - فصل ۱ قسمت ۳",
+    "movie_title_en": "The Red and the Black S01E03",
+    "tag_id": 12097123,
+    "serial": {
+     "enable": true,
+     "parent_title": "سرخ و سیاه",
+     "season_id": "1",
+     "serial_part": "3",
+     "parent_id": "183812",
+     "part_text": "قسمت سوم",
+     "season_text": "فصل اول",
+     "last_part": true
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "rate_avrage": "4.60",
+    "avg_rate_label": "۹۲%",
+    "pro_year": "۱۴۰۵",
+    "imdb_rate": "7.20",
+    "cat_title_str": "درام,تاریخی",
+    "duration": {
+     "value": 2979,
+     "text": "۴۹ دقیقه"
+    },
+    "descr": "شهر در گذر از سال وبایی و فانوس در گذر از عشق و در سودای انتقام است.",
+    "director": "آیدا پناهنده*Ida Panahandeh",
+    "movie_logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_183812_633.png?width=400&quality=85&secret=joPcOPlJjrMm4VND-dJyzg",
+    "fullscreen": true,
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 181769,
+   "attributes": {
+    "id": "181769",
+    "link_type": "movie",
+    "link_key": "0rwvx",
+    "theme": "thumbplay",
+    "output_type": "movie",
+    "movie_id": "181769",
+    "uid": "0rwvx",
+    "movie_title": "پپرونی برای دیکتاتور",
+    "movie_title_en": "Pepperoni for the Dictator",
+    "tag_id": 12097123,
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "rate_avrage": "4.00",
+    "avg_rate_label": "۸۰%",
+    "pro_year": "۱۴۰۳",
+    "imdb_rate": "0.00",
+    "cat_title_str": "تئاتر,کمدی",
+    "duration": {
+     "value": 5844,
+     "text": "یک ساعت و ۳۷ دقیقه"
+    },
+    "descr": "در یک مهمانی خانوادگی، مرد از نام عجیبی که برای فرزندش انتخاب کرده صحبت می کند که با مخالفت همه اعضا مهمانی مواجه می شود و درگیری هایی بین آنها شکل می گیرد که باعث افشا شدن رازهایی می شود و زندگی همه را دگرگون می کند.",
+    "director": "علی احمدی*Ali Ahmadi",
+    "movie_logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_181769_134.png?width=400&quality=85&secret=amUTP0P_xeQDIIkMMWOh-g",
+    "fullscreen": true,
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": true,
+     "text": "زیرنویس دارد"
+    },
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 194114,
+   "attributes": {
+    "id": "194114",
+    "link_type": "movie",
+    "link_key": "awxm4",
+    "theme": "thumbplay",
+    "output_type": "movie",
+    "movie_id": "194114",
+    "uid": "awxm4",
+    "movie_title": "فیلیمو سیت - فصل ۱ قسمت ۲",
+    "movie_title_en": "Filimo Seat S01E02",
+    "tag_id": 12097123,
+    "serial": {
+     "enable": true,
+     "parent_title": "فیلیمو سیت",
+     "season_id": "1",
+     "serial_part": "2",
+     "parent_id": "193484",
+     "part_text": "قسمت دوم",
+     "season_text": "فصل اول",
+     "last_part": true
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "rate_avrage": "4.43",
+    "avg_rate_label": "۸۹%",
+    "pro_year": "۱۴۰۵",
+    "imdb_rate": "0.00",
+    "cat_title_str": "تاک شو",
+    "duration": {
+     "value": 2189,
+     "text": "۳۶ دقیقه"
+    },
+    "descr": "بهترین و بدترین اتفاق ۱۴۰۴ رامتین لوافی چه بود؟!\r\nحمید فراهانی راد پاسخ می دهد!",
+    "director": "طاها یوسفی*Taha Yousefi",
+    "movie_logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_193484_633.png?width=400&quality=85&secret=ftIi-nnOCubqDPJo2mdv8g",
+    "fullscreen": true,
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 177974,
+   "attributes": {
+    "id": "177974",
+    "link_type": "movie",
+    "link_key": "snlju",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "177974",
+    "uid": "snlju",
+    "movie_title": "کفایت مذاکرات",
+    "movie_title_en": "Cloture",
+    "tag_id": 1000060,
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "rate_avrage": "4.36",
+    "avg_rate_label": "۸۸%",
+    "pro_year": "۱۴۰۳",
+    "imdb_rate": "2.70",
+    "cat_title_str": "کمدی,درام",
+    "duration": {
+     "value": 5892,
+     "text": "یک ساعت و ۳۸ دقیقه"
+    },
+    "descr": "نادر از ترکیه دیپورت شده، به ایران برگشته، سراغ خانواده خواهرش که درگیر مشکلات مالی هستند می آید. با حضور نادر شرایط وخیم تر می شود اما او پیشنهادی دارد که می تواند اوضاع را تغییر دهد. یک پیشنهاد هشتصد میلیون تومانی!",
+    "director": "سهیل موفق",
+    "movie_logo": "https://static.cdn.asset.filimo.com/flmt/mov_logo_177974_169.png?width=400&quality=85&secret=3u86x7PitI-QszWZc9FrGw",
+    "fullscreen": true,
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": true,
+     "text": "زیرنویس دارد"
+    },
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null,
+    "publish_date": "2026-10-29 08:00:00",
+    "age_range": "15-18",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     }
+    ],
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "last_watch": null,
+    "is_free_movie": false
+   }
+  },
+  {
+   "type": "movies",
+   "id": 7594,
+   "attributes": {
+    "id": "7594",
+    "link_type": "movie",
+    "link_key": "TOzN8",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "7594",
+    "uid": "TOzN8",
+    "movie_title": "پا تو کفش من نکن",
+    "movie_title_en": "Don't Step Into My Shoes",
+    "tag_id": "2001936",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": true,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "این فیلم داستان دو زوج را روایت می کند که برای ثبت ازدواج به محضر می روند ولی شلوغی محضر عاملی می شود برای رخ دادن اتفاقی غیرمنتظره و در نهایت گره خوردن زندگی این دو زوج به یکدیگر!",
+    "publish_date": "2017-10-23 09:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.43",
+    "avg_rate_label": "۸۹%",
+    "pro_year": "۱۳۹۵",
+    "imdb_rate": "2.90",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     }
+    ],
+    "duration": {
+     "value": 5184,
+     "text": "یک ساعت و ۲۶ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "محمدحسین فرح بخش",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 805,
+   "attributes": {
+    "id": "805",
+    "link_type": "movie",
+    "link_key": "Xcv5J",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "805",
+    "uid": "Xcv5J",
+    "movie_title": "قبرستان غیرانتفاعی",
+    "movie_title_en": "Ghabrestan-e Gheyr-e Entefaee",
+    "tag_id": "2001936",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "مرد سن و سال داری که یک زمین بزرگ در منطقه ای در نزدیکی شهر دارد، تصمیم می گیرد آن را تبدیل به یک قبرستان غیرانتفاعی کند. او در کار خود با موانع و مشکلاتی روبه رو می شود.",
+    "publish_date": "2021-10-14 08:00:00",
+    "age_range": "18-99",
+    "rate_avrage": "3.65",
+    "avg_rate_label": "۷۳%",
+    "pro_year": "۱۳۸۹",
+    "imdb_rate": "3.30",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "family",
+      "title": "خانوادگی",
+      "link_type": "list",
+      "link_key": "family"
+     }
+    ],
+    "duration": {
+     "value": 5356,
+     "text": "یک ساعت و ۲۹ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "محسن دامادی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 2515,
+   "attributes": {
+    "id": "2515",
+    "link_type": "movie",
+    "link_key": "GRjot",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "2515",
+    "uid": "GRjot",
+    "movie_title": "یک اشتباه کوچولو",
+    "movie_title_en": "A Tiny Mistake",
+    "tag_id": "2001936",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "داستان دو شخصیت جامعه معاصر را روایت می كند كه از دو طبقه اجتماعی كاملاً متفاوت هستند. آنها در شرایطی ناگزیر با جابجایی جایگاهشان می شوند. این تغییر جایگاه منجر به بروز موقعیت ها و واكنش های طنز می شود.",
+    "publish_date": "2024-05-15 00:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.17",
+    "avg_rate_label": "۸۴%",
+    "pro_year": "۱۳۸۷",
+    "imdb_rate": "2.80",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "family",
+      "title": "خانوادگی",
+      "link_type": "list",
+      "link_key": "family"
+     }
+    ],
+    "duration": {
+     "value": 5044,
+     "text": "یک ساعت و ۲۴ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "محسن دامادي",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 136090,
+   "attributes": {
+    "id": "136090",
+    "link_type": "movie",
+    "link_key": "irz2p",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "136090",
+    "uid": "irz2p",
+    "movie_title": "تو و من",
+    "movie_title_en": "You and Me",
+    "tag_id": "2001936",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "دو جوان به خاطر حفظ شغل مجبور می شوند مدتی نقش نامزدهای یکدیگر را بازی کنند. اما در این میان درگیر ماجراهای مختلفی می شوند و پس از مدتی واقعاً به یکدیگر علاقه مند می شوند.",
+    "publish_date": "2025-10-22 18:58:31",
+    "age_range": "15-18",
+    "rate_avrage": "4.14",
+    "avg_rate_label": "۸۳%",
+    "pro_year": "۱۳۹۰",
+    "imdb_rate": "2.40",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "romance",
+      "title": "عاشقانه",
+      "link_type": "list",
+      "link_key": "romance"
+     }
+    ],
+    "duration": {
+     "value": 5996,
+     "text": "یک ساعت و ۳۹ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "محمد بانکی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 94069,
+   "attributes": {
+    "id": "94069",
+    "link_type": "movie",
+    "link_key": "94069",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "94069",
+    "uid": "94069",
+    "movie_title": "نیسان آبی",
+    "movie_title_en": "Blue Nissan",
+    "tag_id": 1000060,
+    "serial": {
+     "enable": true,
+     "parent_title": "نیسان آبی",
+     "season_id": "0",
+     "serial_part": "0",
+     "parent_id": "94069",
+     "part_text": "قسمت 0ام",
+     "season_text": "فصل 0ام",
+     "last_part": false
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "«نیسان آبی» قصه جیب خالی است و پول، قصه عشق است و شیفتگی. جمشید و رضا دو دوست قدیمی هستند که عاشق دو خواهر به اسم زری و پری شدند و با آن ها ازدواج کردند.\r\nپس از گذشت سه سال، ممدچاخان بالاخره عروسی می کند. جمشید، رضا خرسند، رضاسوسن، زری، پری، علم تاج و سرهنگ، خلاصه کل شکرآباد جمع می شوند تا شامِ عروسی ممد را بخورند ولی نه تنها شام به کسی نمی رسد بلکه اتفاقی می افتد که گرسنگی از یاد همه می رود!",
+    "publish_date": "2021-10-20 08:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.40",
+    "avg_rate_label": "۸۹%",
+    "pro_year": "۱۴۰۰",
+    "imdb_rate": "0.00",
+    "categories": [
+     {
+      "title_en": "family",
+      "title": "خانوادگی",
+      "link_type": "list",
+      "link_key": "family"
+     },
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     }
+    ],
+    "duration": null,
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "سید مسعود اطیابی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 183100,
+   "attributes": {
+    "id": "183100",
+    "link_type": "movie",
+    "link_key": "g1vfz",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "183100",
+    "uid": "g1vfz",
+    "movie_title": "ماجراجویی در جزیره جیمزباند",
+    "movie_title_en": "An Adventure to James Bond Island",
+    "tag_id": 1000060,
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "movie_one_pay",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": true,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "rate_avrage": "3.91",
+    "avg_rate_label": "۷۹%",
+    "pro_year": "۱۴۰۴",
+    "imdb_rate": "2.90",
+    "cat_title_str": "کمدی,خانوادگی",
+    "duration": {
+     "value": 5265,
+     "text": "یک ساعت و ۲۷ دقیقه"
+    },
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null,
+    "descr": "پاشا بر سر معامله ای قدیمی بدهی سنگینی به بهروز دارد و به خیال خود تنها راه نجاتش از این مخمصه ،همراه کردن او به جزیره جیمزباند است.\r\nاما این سفر آن طور که انتظار می رفت پیش نمی رود.",
+    "publish_date": "2026-09-15 13:46:15",
+    "age_range": "15-18",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "family",
+      "title": "خانوادگی",
+      "link_type": "list",
+      "link_key": "family"
+     }
+    ],
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": true,
+     "text": "زیرنویس دارد"
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "بهمن گودرزی",
+    "last_watch": null,
+    "is_free_movie": false
+   }
+  },
+  {
+   "type": "movies",
+   "id": 175363,
+   "attributes": {
+    "id": "175363",
+    "link_type": "movie",
+    "link_key": "m3gbx",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "175363",
+    "uid": "m3gbx",
+    "movie_title": "طهران ۵۷",
+    "movie_title_en": "Tehran 57",
+    "tag_id": 1000060,
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": true,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "دونالد ترامپِ جوان به ایران آمده تا کازینویی در شمال راه اندازی کند. دو ستاره هالیوودی، جک نیکلسون و وارن بیتی او را در این سفر همراهی می کنند. خسرو بی خبر از اتفاقات غیرمنتظره ای که در راه است به کمک دوستش پرویز که مترجم این مهمانان خارجی است، سعی دارد تا در کازینوی ترامپ با او شریک شود. شراکتی که زندگی اش را زیر و رو می کند...",
+    "publish_date": "2026-08-14 08:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "3.24",
+    "avg_rate_label": "۶۵%",
+    "pro_year": "۱۴۰۴",
+    "imdb_rate": "2.10",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "family",
+      "title": "خانوادگی",
+      "link_type": "list",
+      "link_key": "family"
+     }
+    ],
+    "duration": {
+     "value": 5132,
+     "text": "یک ساعت و ۲۵ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": true,
+     "text": "زیرنویس دارد"
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "ایمان یزدی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 151095,
+   "attributes": {
+    "id": "151095",
+    "link_type": "movie",
+    "link_key": "iwf8c",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "151095",
+    "uid": "iwf8c",
+    "movie_title": "تگزاس ۳",
+    "movie_title_en": "Texas 3",
+    "tag_id": 1000060,
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": true,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "پس از ماجراهای مجسمه های حاوی کوکائین در «تگزاس 2»، حالا در ادامه ماجرا در «تگزاس 3» ساسان و بهرام باید بقیه مجسمه ها را پیدا کنند تا گروگان گیری و مشکلات امنیتی برطرف شود ولی ...",
+    "publish_date": "2025-01-14 10:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.44",
+    "avg_rate_label": "۸۹%",
+    "pro_year": "۱۴۰۲",
+    "imdb_rate": "3.60",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "action",
+      "title": "اکشن",
+      "link_type": "list",
+      "link_key": "action"
+     }
+    ],
+    "duration": {
+     "value": 6000,
+     "text": "یک ساعت و ۴۰ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "سید مسعود اطیابی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  }
+ ]
+}

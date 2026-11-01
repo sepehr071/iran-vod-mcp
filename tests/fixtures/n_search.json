@@ -1,0 +1,67 @@
+{
+ "succeeded": true,
+ "result": {
+  "page": 1,
+  "is_succeed": true,
+  "result_items": [
+   {
+    "total": 0,
+    "groups": {
+     "Media": {
+      "total": 8,
+      "items": [
+       {
+        "id": "2377",
+        "name": "شام ایرانی",
+        "slug": "",
+        "url": "https://www.namava.ir/series/2377-شام_ایرانی",
+        "image_url": "https://static.namava.ir/Content/Upload/Images/f54b31e5-34f6-445a-ab8b-f4055ee56aa6.jpg",
+        "type": "Series",
+        "contentPlayAccessType": "Free",
+        "entity_type": "Media",
+        "unknownDatePublish": false,
+        "startProductionYear": "1390",
+        "publishDate": "19700101T000000000Z",
+        "publishInFuture": false
+       },
+       {
+        "id": "144975",
+        "name": "جادوگر",
+        "slug": "",
+        "url": "https://www.namava.ir/series/144975-جادوگر",
+        "image_url": "https://static.namava.ir/Content/Upload/Images/837613cc-16da-4148-945b-fd5459fcfa97.jpg",
+        "type": "Series",
+        "contentPlayAccessType": "None",
+        "entity_type": "Media",
+        "unknownDatePublish": false,
+        "startProductionYear": "1400",
+        "publishDate": "19700101T000000000Z",
+        "publishInFuture": false
+       },
+       {
+        "id": "236371",
+        "name": "کنسرتینو",
+        "url": "https://www.namava.ir/series/236371-کنسرتینو",
+        "image_url": "https://static.namava.ir/Content/Upload/Images/804e7c9f-8ee0-4288-81ca-a922e40b9ea3.jpg",
+        "type": "Series",
+        "contentPlayAccessType": "None",
+        "entity_type": "Media",
+        "unknownDatePublish": false,
+        "startProductionYear": "1403",
+        "publishDate": "19700101T000000000Z",
+        "publishInFuture": false
+       }
+      ],
+      "queryId": "236B3073EE7366CF"
+     },
+     "Cast": {
+      "total": 0,
+      "queryId": "24122D835C9599BE"
+     }
+    },
+    "items": []
+   }
+  ]
+ },
+ "error": null
+}

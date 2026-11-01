@@ -1,0 +1,1112 @@
+{
+ "data": [
+  {
+   "type": "Row",
+   "id": 4,
+   "attributes": {
+    "id": 4,
+    "tag_id": "1000060",
+    "output_type": "movie",
+    "theme": "thumbnail",
+    "more_type": "infinity",
+    "line_count": 0,
+    "showSerialParent": false,
+    "link_to_episode": null,
+    "link_type": "nolink",
+    "link_key": null,
+    "show_all": true,
+    "itemsToShow": null,
+    "has_downvote": false,
+    "list_tag_id": "1000060",
+    "link_text": "کمدی",
+    "dataSource_type": "tag",
+    "dataSource_key": "1000060",
+    "rand_data": false,
+    "limit": 40,
+    "page": 1,
+    "links": {
+     "self": "https://www.filimo.com/api/fa/v1/movie/movie/loadmore/tagid/1000060/more_type/infinity/other_data/iran-user_rate-movie/perpage/40/page/1",
+     "first": "https://www.filimo.com/api/fa/v1/movie/movie/loadmore/tagid/1000060/more_type/infinity/other_data/iran-user_rate-movie/perpage/40/page/1",
+     "prev": "https://www.filimo.com/api/fa/v1/movie/movie/loadmore/tagid/1000060/more_type/infinity/other_data/iran-user_rate-movie/perpage/40/page/1",
+     "next": "https://www.filimo.com/api/fa/v1/movie/movie/loadmore/tagid/1000060/more_type/infinity/other_data/iran-user_rate-movie/perpage/40/page/2",
+     "more_records": true
+    }
+   },
+   "relationships": {
+    "headersliders": {
+     "data": []
+    },
+    "webinapps": {
+     "data": []
+    },
+    "taglists": {
+     "data": []
+    },
+    "movies": {
+     "data": [
+      {
+       "type": "movies",
+       "id": 21173
+      },
+      {
+       "type": "movies",
+       "id": 42031
+      },
+      {
+       "type": "movies",
+       "id": 539
+      },
+      {
+       "type": "movies",
+       "id": 25670
+      },
+      {
+       "type": "movies",
+       "id": 181480
+      },
+      {
+       "type": "movies",
+       "id": 21003
+      },
+      {
+       "type": "movies",
+       "id": 30087
+      },
+      {
+       "type": "movies",
+       "id": 39628
+      },
+      {
+       "type": "movies",
+       "id": 25761
+      },
+      {
+       "type": "movies",
+       "id": 23112
+      }
+     ]
+    },
+    "livetvs": {
+     "data": []
+    },
+    "posters": {
+     "data": []
+    },
+    "shorts": {
+     "data": []
+    },
+    "crews": {
+     "data": []
+    },
+    "buttonlists": {
+     "data": []
+    },
+    "menus": {
+     "data": []
+    },
+    "customhtmls": {
+     "data": []
+    },
+    "listinfos": {
+     "data": []
+    },
+    "alerts": {
+     "data": []
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "movies",
+   "id": 21173,
+   "attributes": {
+    "id": "21173",
+    "link_type": "movie",
+    "link_key": "UxDOj",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "21173",
+    "uid": "UxDOj",
+    "movie_title": "مرد آفتابی",
+    "movie_title_en": "",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "در فیلم مرد آفتابی، حمید و اکبر دو جوانی که در یک عکاسی کار می کنند پس از مرگ صاحب مغازه نگران فروخته شدن مغازه توسط همسر او نرگس می شوند. آن دو در مقابل پیشنهاد خرید مغازه از نرگس پولی ندارند و به همین دلیل وقتی شایعه ازدواج نرگس با خوار و بار فروش محل را می نوند به فکر ازدواج با او می افتند…",
+    "publish_date": "2026-06-23 15:53:27",
+    "age_range": "15-18",
+    "rate_avrage": "4.76",
+    "avg_rate_label": "۹۶%",
+    "pro_year": "۱۳۷۴",
+    "imdb_rate": "6.60",
+    "categories": [],
+    "duration": {
+     "value": 5306,
+     "text": "یک ساعت و ۲۸ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "همایون اسعدیان",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 42031,
+   "attributes": {
+    "id": "42031",
+    "link_type": "movie",
+    "link_key": "iyx2n",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "42031",
+    "uid": "iyx2n",
+    "movie_title": "دلداده",
+    "movie_title_en": "Deldadeh",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "«دلداده» فیلمی در ژانر کمدی و محصول سال 1387 به کارگردانی «قدرت الله صلح میرزایی» است. در این فیلم بازیگرانی چون «جواد رضویان»، «مجید صالحی»،«اکبر عبدی»، «الهام حمیدی» و ... به ایفای نقش پرداخته اند.\r\nدختر ثروتمندی به نام «عسل» قصد دارد بعد از سالها اقامت در آمریکا اکنون به ایران بازگردد. تمام پسران مجردی که در همسایگی عسل هستند تصمیم میگیرند دل او را برای ازدواج بدست بیاورند و این شروع ماجراست...",
+    "publish_date": "2026-06-22 20:44:20",
+    "age_range": "15-18",
+    "rate_avrage": "4.73",
+    "avg_rate_label": "۹۵%",
+    "pro_year": "۱۳۸۷",
+    "imdb_rate": "3.90",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     }
+    ],
+    "duration": {
+     "value": 5506,
+     "text": "یک ساعت و ۳۱ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "قدرت الله صلح میرزایی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 539,
+   "attributes": {
+    "id": "539",
+    "link_type": "movie",
+    "link_key": "wD7Pg",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "539",
+    "uid": "wD7Pg",
+    "movie_title": "مدرسه پیرمردها",
+    "movie_title_en": "Madreseye Piremardha",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "پسران  آقای  «پاك نهاد» مؤسس  مدرسه  ناشنوایان  به  بهانه  اینكه  پدر به  خارج  از كشور رفته ، قصد دارند ساختمان  قدیمی  مدرسه  را خراب  كرده  و به  جای  آن  پاساژ بنا كنند.",
+    "publish_date": "2022-04-27 00:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.73",
+    "avg_rate_label": "۹۵%",
+    "pro_year": "۱۳۷۰",
+    "imdb_rate": "5.90",
+    "categories": [
+     {
+      "title_en": "adventure",
+      "title": "ماجراجویی",
+      "link_type": "list",
+      "link_key": "adventure"
+     },
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     }
+    ],
+    "duration": {
+     "value": 5685,
+     "text": "یک ساعت و ۳۴ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "علی سجادی حسینی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 25670,
+   "attributes": {
+    "id": "25670",
+    "link_type": "movie",
+    "link_key": "fO31M",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "25670",
+    "uid": "fO31M",
+    "movie_title": "اجاره نشین ها",
+    "movie_title_en": "The Tenants",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "یک آپارتمان در حاشیه شهر تهران که مالکش درگذشته بدون وارث مانده و اداره امور آپارتمان و مستاجرها را مباشر مالک درگذشته که خود نیز ساکن همین ساختمان است به عهده گرفته و قصد دارد با همکاری یک مشاور املاک محلی ملک را تصاحب کند.",
+    "publish_date": "2026-05-02 17:14:24",
+    "age_range": "15-18",
+    "rate_avrage": "4.72",
+    "avg_rate_label": "۹۵%",
+    "pro_year": "۱۳۶۶",
+    "imdb_rate": "7.60",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     }
+    ],
+    "duration": {
+     "value": 7856,
+     "text": "۲ساعت و ۱۰ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "داریوش مهرجویی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 181480,
+   "attributes": {
+    "id": "181480",
+    "link_type": "movie",
+    "link_key": "veqya",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "181480",
+    "uid": "veqya",
+    "movie_title": "دختر برقی",
+    "movie_title_en": "Electric Girl",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "کارخانه سازنده هیلدا، او را اشتباهی به خانه راحله دایی می فرستد. جایی که دختر برقی مجبور می شود، کارهایی انجام دهد که برایش برنامه ریزی نشده ..",
+    "publish_date": "2026-10-18 08:00:00",
+    "age_range": "6-12",
+    "rate_avrage": "4.70",
+    "avg_rate_label": "۹۴%",
+    "pro_year": "۱۴۰۴",
+    "imdb_rate": "3.50",
+    "categories": [
+     {
+      "title_en": "fantasy",
+      "title": "فانتزی",
+      "link_type": "list",
+      "link_key": "fantasy"
+     },
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     }
+    ],
+    "duration": {
+     "value": 5325,
+     "text": "یک ساعت و ۲۸ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": true,
+     "text": "زیرنویس دارد"
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "حسین قناعت",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 21003,
+   "attributes": {
+    "id": "21003",
+    "link_type": "movie",
+    "link_key": "pRZ86",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "21003",
+    "uid": "pRZ86",
+    "movie_title": "آخرین مجرد",
+    "movie_title_en": "Last Single",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "«ولی» جوانی است که بارها به خواستگاری رفته و نتوانسته ازدواج کند. او اتفاقی با اتومبیل خانم جوانی تصادف می کند و درگیر ماجراهایی پیچیده، خنده دار و جالبی می شود.",
+    "publish_date": "2026-06-22 18:18:29",
+    "age_range": "15-18",
+    "rate_avrage": "4.70",
+    "avg_rate_label": "۹۴%",
+    "pro_year": "۱۳۸۸",
+    "imdb_rate": "4.50",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "family",
+      "title": "خانوادگی",
+      "link_type": "list",
+      "link_key": "family"
+     }
+    ],
+    "duration": {
+     "value": 5484,
+     "text": "یک ساعت و ۳۱ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "محمدرضا فاضلی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 30087,
+   "attributes": {
+    "id": "30087",
+    "link_type": "movie",
+    "link_key": "eo5lO",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "30087",
+    "uid": "eo5lO",
+    "movie_title": "کمدی جوجه تیغی",
+    "movie_title_en": "Hedgehog",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "جوجه تیغی\" یک اثر کمدی است که بهرام افشاری نویسندگی و کارگردانی آن را بر عهده دارد و در آن ایفای نقش کرده است. این کمدی که اجرایی تک نفره در قالب تئاتر است، با اجرای بهرام افشاری روایت می شود و داستان جوانی در آرزوی اسکار را بیان می کند که برای ورود به عرصه سینما تلاش های بسیاری کرده است. جوجه تیغی اثری متفاوت از بهرام افشاری است و اولین تجربه این بازیگر در کارگردانی محسوب می شود. این نمایش اولین بار در سال ۹۴ روی صحنه رفت، در همان زمان با استقبال زیادی مواجه شد و اجرا های متعدد دیگر را در سال های ۹۵ و ۹۷ به دنبال داشت. حالا پس از گذشت مدتی از آخرین اجرا، با توجه به تعطیلی سالن های نمایش و دوری علاقه مندان از تئاتر، افشاری تصمیم به انتشار فیلم این نمایش برای دوستداران این هنر گرفته است. عکاس این اثر شهریار اکبریه می باشد.",
+    "publish_date": "2026-05-23 21:10:42",
+    "age_range": "18-99",
+    "rate_avrage": "4.68",
+    "avg_rate_label": "۹۴%",
+    "pro_year": "۱۳۹۷",
+    "imdb_rate": "0.00",
+    "categories": [
+     {
+      "title_en": "theatre",
+      "title": "تئاتر",
+      "link_type": "list",
+      "link_key": "theatre"
+     },
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     }
+    ],
+    "duration": {
+     "value": 3416,
+     "text": "۵۶ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "بهرام افشاری",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 39628,
+   "attributes": {
+    "id": "39628",
+    "link_type": "movie",
+    "link_key": "yd6kl",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "39628",
+    "uid": "yd6kl",
+    "movie_title": "اخراجی ها ۲",
+    "movie_title_en": "Deportees 2",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "«اخراجی ها ۲» یک فیلم کمدی و جنگی ایرانی به کارگردانی و نویسندگی مسعود ده  نمکی و تهیه کنندگی حبیب الله کاسه ساز است که ساخت آن در پاییز ۱۳۸۷ آغاز شد. این داستان ادامه داستان اخراجی ها یک است. در اوایل فیلم عراقی ها اقدام به کشتن مجروحین می کنند و اخراجی های اسیر شده را به یک اردوگاه به سرپرستی رسول می برند. از طرف دیگر، خانواده آن ها که قصد مسافرت به مشهد را داشتند، توسط سازمان مجاهدین خلق ایران با ربودن هواپیما و نشاندن آن در عراق ایشان را ترغیب به اعطای درخواست پناهندگی به صدام حسین می کنند. مسافران که خانواده های اخراجی ها هم جزو آن ها بودند، برگه درخواست پناهندگی را پاره کرده و سرود ای ایران را می خوانند.",
+    "publish_date": "2026-07-29 20:20:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.67",
+    "avg_rate_label": "۹۴%",
+    "pro_year": "۱۳۸۸",
+    "imdb_rate": "3.20",
+    "categories": [
+     {
+      "title_en": "action",
+      "title": "اکشن",
+      "link_type": "list",
+      "link_key": "action"
+     },
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     }
+    ],
+    "duration": {
+     "value": 6625,
+     "text": "یک ساعت و ۵۰ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "مسعود ده نمکی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 25761,
+   "attributes": {
+    "id": "25761",
+    "link_type": "movie",
+    "link_key": "bcE2U",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "25761",
+    "uid": "bcE2U",
+    "movie_title": "نان عشق موتور ۱۰۰۰",
+    "movie_title_en": "Nan va Eshgh va Motor 1000",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "باران فقط سه روز فرصت دارد تا ازدواج کند.با چه کسی؟ مهم نیست. او فقط باید ازدواج کند وگرنه از ارث محروم خواهد ماند. باران با هزار بدبختی یک شوهر مصلحتی برای خودش دست و پا می کند ولی ...",
+    "publish_date": "2026-06-23 15:54:24",
+    "age_range": "15-18",
+    "rate_avrage": "4.67",
+    "avg_rate_label": "۹۴%",
+    "pro_year": "۱۳۸۰",
+    "imdb_rate": "5.40",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     }
+    ],
+    "duration": {
+     "value": 7351,
+     "text": "۲ساعت و ۲ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": true,
+     "text": "زیرنویس دارد"
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "ابوالحسن داوودی",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 23112,
+   "attributes": {
+    "id": "23112",
+    "link_type": "movie",
+    "link_key": "8CtkI",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "23112",
+    "uid": "8CtkI",
+    "movie_title": "پاستاریونی",
+    "movie_title_en": "Pastarioni",
+    "tag_id": "1000060",
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": true,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "پاستاریونی یک کمدی خانوادگی به کارگردانی سهیل موفق و نویسندگی حمزه صالحی و تهیه کنندگی بیتا منصوری محصول سال ۱۳۹۷ است.\r\nپاستاریونی داستان غذاهاست. فیلم با بریانی اصفهانی ها شروع می شود و کوشان وقتی رستوران پدرش در تهران را ورشکسته می بیند، قصد می کند که یک بریانی به جای رستوران فست فود پدرش در تهران را باز کند. رستورانی که به دلیل یک رقیب بسیار قدرتمند و مجلل در آن گوشه خیابان، پاستا دا پیتزا، رونق خود را از دست داده است و…",
+    "publish_date": "2025-05-21 17:22:14",
+    "age_range": "15-18",
+    "rate_avrage": "4.67",
+    "avg_rate_label": "۹۴%",
+    "pro_year": "۱۳۹۷",
+    "imdb_rate": "4.20",
+    "categories": [
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     },
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     }
+    ],
+    "duration": {
+     "value": 5514,
+     "text": "یک ساعت و ۳۱ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": true,
+     "text": "زیرنویس دارد"
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "سهیل موفق",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+[project]
+name = "iran-vod-mcp"
+version = "0.1.0"
+description = "Unofficial read-only MCP server for the Iranian streaming catalogs Filimo and Namava: search, details, episodes, new, genres."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Sepehr Radmard", email = "sepehrr80@gmail.com" }]
+requires-python = ">=3.10"
+keywords = ["mcp", "model-context-protocol", "filimo", "namava", "iran", "streaming", "movies", "series", "vod", "persian", "claude"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "mcp>=2.2,<3",
+    "httpx>=0.27",
+    "httpx-curl-cffi>=0.1.5",
+    "curl-cffi>=0.16.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/sepehr071/iran-vod-mcp"
+Issues = "https://github.com/sepehr071/iran-vod-mcp/issues"
+Website = "https://mcpfarsi.ir/"
+
+[project.scripts]
+iran-vod-mcp = "iran_vod_mcp.server:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not live'"
+markers = ["live: calls the real Filimo and Namava APIs (run with -m live)"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]  # long Field(description=...) strings read better on one line

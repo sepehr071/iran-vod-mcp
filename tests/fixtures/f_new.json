@@ -1,0 +1,739 @@
+{
+ "data": [
+  {
+   "type": "Row",
+   "id": 7,
+   "attributes": {
+    "id": 7,
+    "tag_id": 10291687,
+    "output_type": "movie",
+    "theme": "thumbnail",
+    "more_type": "slider",
+    "line_count": 1,
+    "showSerialParent": true,
+    "link_to_episode": true,
+    "link_type": "list",
+    "link_key": 10291687,
+    "show_all": true,
+    "itemsToShow": null,
+    "has_downvote": null,
+    "list_tag_id": "1",
+    "link_to_status_tag_id": 1133,
+    "link_text": "تازه‌ها",
+    "use_special": "only",
+    "show_extra_info": true
+   },
+   "relationships": {
+    "headersliders": {
+     "data": []
+    },
+    "webinapps": {
+     "data": []
+    },
+    "taglists": {
+     "data": []
+    },
+    "movies": {
+     "data": [
+      {
+       "type": "movies",
+       "id": 194082
+      },
+      {
+       "type": "movies",
+       "id": 195415
+      },
+      {
+       "type": "movies",
+       "id": 194575
+      },
+      {
+       "type": "movies",
+       "id": 194181
+      },
+      {
+       "type": "movies",
+       "id": 195362
+      },
+      {
+       "type": "movies",
+       "id": 194557
+      }
+     ]
+    },
+    "livetvs": {
+     "data": []
+    },
+    "posters": {
+     "data": []
+    },
+    "shorts": {
+     "data": []
+    },
+    "crews": {
+     "data": []
+    },
+    "buttonlists": {
+     "data": []
+    },
+    "menus": {
+     "data": []
+    },
+    "customhtmls": {
+     "data": []
+    },
+    "listinfos": {
+     "data": []
+    },
+    "alerts": {
+     "data": []
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "movies",
+   "id": 194082,
+   "attributes": {
+    "id": "194082",
+    "link_type": "movie",
+    "link_key": "dx80p",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "194082",
+    "uid": "dx80p",
+    "movie_title": "بره ناقلا: هیولای ماسی باتم",
+    "movie_title_en": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "tag_id": 10291687,
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "وقتی کشاورز در شب قبل از هالووین کشتزار کدوحلوایی مزرعه را خراب می کند، شور و هیجان جای خود را به ناامیدی می دهد. بره ناقلا با آزمایش های علمی سعی می کند اوضاع را درست کند، اما با ظاهر شدن هیولایی وحشی در جنگل، همه چیز به هم می ریزد.",
+    "publish_date": "2026-10-23 22:29:00",
+    "age_range": "12-15",
+    "rate_avrage": "4.85",
+    "avg_rate_label": "۹۷%",
+    "pro_year": "۲۰۲۶",
+    "imdb_rate": "7.20",
+    "categories": [
+     {
+      "title_en": "animation",
+      "title": "انیمیشن",
+      "link_type": "list",
+      "link_key": "animation"
+     },
+     {
+      "title_en": "adventure",
+      "title": "ماجراجویی",
+      "link_type": "list",
+      "link_key": "adventure"
+     }
+    ],
+    "duration": {
+     "value": 4828,
+     "text": "یک ساعت و ۲۰ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "انگلیس",
+      "country_en": "england"
+     },
+     {
+      "country": "فرانسه",
+      "country_en": "france"
+     }
+    ],
+    "dubbed": {
+     "enable": true,
+     "text": "دوبله شده"
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": "isDubbed",
+     "text": "دوبله شده"
+    },
+    "director": "استیو کاکس",
+    "last_watch": null,
+    "is_free_movie": false,
+    "cover_data": {
+     "vertical": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_ver_194082_568.jpg?width=960&quality=80&sharpen=50&secret=dqpoQ7aclqC4AR3A6rUxAg",
+     "horizontal": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_194082_211.jpg?width=1920&quality=80&sharpen=50&secret=uedM9trCkgk3nROe2zXAZQ"
+    },
+    "movie_logo": null,
+    "fullscreen": true,
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 195415,
+   "attributes": {
+    "id": "195415",
+    "link_type": "movie",
+    "link_key": "n1tx9",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "195415",
+    "uid": "n1tx9",
+    "movie_title": "آخرالزمان زد: جهانی نو",
+    "movie_title_en": "Apocalypse Z: New World",
+    "tag_id": 10291687,
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "گروهی برای رساندن آذوقه راهی اسپانیای گرفتار ویروس می شوند؛ اما با پیوستن روبرتو از جزایر امن قناری و نیت های پنهان او، مأموریت پیچیده تر می شود. آن ها باید در میان انبوه مبتلایان و بی اعتمادی، بین زنده ماندن و حفظ انسانیت یکی را انتخاب کنند.",
+    "publish_date": "2026-10-31 02:32:01",
+    "age_range": "18-99",
+    "rate_avrage": "4.41",
+    "avg_rate_label": "۸۹%",
+    "pro_year": "۲۰۲۶",
+    "imdb_rate": "6.80",
+    "categories": [
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     },
+     {
+      "title_en": "horror",
+      "title": "وحشت",
+      "link_type": "list",
+      "link_key": "horror"
+     }
+    ],
+    "duration": {
+     "value": 5833,
+     "text": "یک ساعت و ۳۷ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "اسپانیا",
+      "country_en": "spain"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "es"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "کارلس تورنس",
+    "last_watch": null,
+    "is_free_movie": false,
+    "cover_data": {
+     "vertical": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_ver_195415_668.jpg?width=960&quality=80&sharpen=50&secret=1QLXCH9jnJSJghrX7WqkRw",
+     "horizontal": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_195415_567.jpg?width=1920&quality=80&sharpen=50&secret=JbqVM4cVf5mvzl1cSA4aUQ"
+    },
+    "movie_logo": null,
+    "fullscreen": true,
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 194575,
+   "attributes": {
+    "id": "194575",
+    "link_type": "movie",
+    "link_key": "194575",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "194575",
+    "uid": "194575",
+    "movie_title": "بالارا: جزیره خون",
+    "movie_title_en": "Balaraw: Blood Island",
+    "tag_id": 10291687,
+    "serial": {
+     "enable": true,
+     "parent_title": "بالارا: جزیره خون",
+     "season_id": "0",
+     "serial_part": "0",
+     "parent_id": "194575",
+     "part_text": "قسمت 0ام",
+     "season_text": "فصل 0ام",
+     "last_part": false
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": false,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "سال ها از ناپدید شدن مادر سابینا می گذرد. او با دنبال کردن سرنخی مرموز به جزیره ای ناشناخته می رسد و در آنجا با رازهای تاریک و پنهان خانواده اش روبه رو می شود.",
+    "publish_date": "2026-10-29 22:18:33",
+    "age_range": "18-99",
+    "rate_avrage": null,
+    "avg_rate_label": null,
+    "pro_year": "۲۰۲۶",
+    "imdb_rate": "7.70",
+    "categories": [
+     {
+      "title_en": "horror",
+      "title": "وحشت",
+      "link_type": "list",
+      "link_key": "horror"
+     },
+     {
+      "title_en": "mystery",
+      "title": "معمایی",
+      "link_type": "list",
+      "link_key": "mystery"
+     }
+    ],
+    "duration": null,
+    "countries": [
+     {
+      "country": "فیلیپین",
+      "country_en": "philippines"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fil"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "رائه رد",
+    "last_watch": null,
+    "is_free_movie": false,
+    "cover_data": {
+     "vertical": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_ver_194575_950.jpg?width=960&quality=80&sharpen=50&secret=PjDWnPlzI0InJ4bj2tfKtw",
+     "horizontal": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_194575_707.jpg?width=1920&quality=80&sharpen=50&secret=OUk8m9gzyv-WH9aui8acvQ"
+    },
+    "movie_logo": null,
+    "fullscreen": true,
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 194181,
+   "attributes": {
+    "id": "194181",
+    "link_type": "movie",
+    "link_key": "194181",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "194181",
+    "uid": "194181",
+    "movie_title": "شبانه",
+    "movie_title_en": "Nocturne",
+    "tag_id": 10291687,
+    "serial": {
+     "enable": true,
+     "parent_title": "شبانه",
+     "season_id": "0",
+     "serial_part": "0",
+     "parent_id": "194181",
+     "part_text": "قسمت 0ام",
+     "season_text": "فصل 0ام",
+     "last_part": false
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": false,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "یک سرباز سابق برای شروع زندگی آرامی، فیلادلفیا را ترک می کند؛ اما وقتی یک قاتل زنجیره ای خانه و خانوادهٔ تازه اش را تهدید می کند، او باید از آن ها محافظت کند و هم زمان، دخترش را که مأمور اف بی آی است، برای یافتن آخرین قربانی قاتل به مأموریت بفرستد.",
+    "publish_date": "2026-10-30 23:42:06",
+    "age_range": "18-99",
+    "rate_avrage": null,
+    "avg_rate_label": null,
+    "pro_year": "۲۰۲۶",
+    "imdb_rate": "0.00",
+    "categories": [
+     {
+      "title_en": "crime",
+      "title": "جنایی",
+      "link_type": "list",
+      "link_key": "crime"
+     },
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     }
+    ],
+    "duration": null,
+    "countries": [
+     {
+      "country": "آمریکا",
+      "country_en": "america"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "en"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "آلن کولتر",
+    "last_watch": null,
+    "is_free_movie": false,
+    "cover_data": {
+     "vertical": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_ver_194181_979.jpg?width=960&quality=80&sharpen=50&secret=agvwRlEsMz1fNOMRFFg7uQ",
+     "horizontal": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_194181_988.jpg?width=1920&quality=80&sharpen=50&secret=KNW-DTQdx-x3StgrtF7hQQ"
+    },
+    "movie_logo": null,
+    "fullscreen": true,
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 195362,
+   "attributes": {
+    "id": "195362",
+    "link_type": "movie",
+    "link_key": "yz1lg",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "195362",
+    "uid": "yz1lg",
+    "movie_title": "روزهای ساکاموتو",
+    "movie_title_en": "Sakamoto Days",
+    "tag_id": 10291687,
+    "serial": {
+     "enable": false,
+     "parent_title": "",
+     "season_id": 0,
+     "serial_part": "",
+     "parent_id": "",
+     "part_text": "",
+     "season_text": "",
+     "last_part": ""
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": false,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "یک آدمکش افسانه ای بازنشسته که ازدواج کرده و صاحب دختری شده، وقتی گذشته اش گریبان گیرش می شود، باید از خانواده اش محافظت کند.",
+    "publish_date": "2026-10-31 21:36:27",
+    "age_range": "18-99",
+    "rate_avrage": null,
+    "avg_rate_label": null,
+    "pro_year": "۲۰۲۶",
+    "imdb_rate": "6.40",
+    "categories": [
+     {
+      "title_en": "action",
+      "title": "اکشن",
+      "link_type": "list",
+      "link_key": "action"
+     },
+     {
+      "title_en": "comedy",
+      "title": "کمدی",
+      "link_type": "list",
+      "link_key": "comedy"
+     }
+    ],
+    "duration": {
+     "value": 7420,
+     "text": "۲ساعت و ۳ دقیقه"
+    },
+    "countries": [
+     {
+      "country": "ژاپن",
+      "country_en": "japan"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "ja"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "یوییچی فوکودا",
+    "last_watch": null,
+    "is_free_movie": false,
+    "cover_data": {
+     "vertical": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_ver_195362_464.jpg?width=960&quality=80&sharpen=50&secret=N7fO9L8FR54jOrepOwSJfQ",
+     "horizontal": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_195362_181.jpg?width=1920&quality=80&sharpen=50&secret=bDt6LpafoF_GtdHLkNy_UQ"
+    },
+    "movie_logo": null,
+    "fullscreen": true,
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 194557,
+   "attributes": {
+    "id": "194557",
+    "link_type": "movie",
+    "link_key": "194557",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "194557",
+    "uid": "194557",
+    "movie_title": "این قسمت: متیو پری",
+    "movie_title_en": "The One About Matthew Perry",
+    "tag_id": 10291687,
+    "serial": {
+     "enable": true,
+     "parent_title": "این قسمت: متیو پری",
+     "season_id": "0",
+     "serial_part": "0",
+     "parent_id": "194557",
+     "part_text": "قسمت 0ام",
+     "season_text": "فصل 0ام",
+     "last_part": false
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": false,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "این مستند با روایت های خانواده و دوستان متیو پری، چهرهٔ واقعی او را به تصویر می کشد؛ انسانی بخشنده، شوخ طبع و آسیب پذیر که شخصیتی فراتر از تصور داشت و تلاش می کرد ورای شهرتش، خودش را پیدا کند.",
+    "publish_date": "2026-10-28 15:46:11",
+    "age_range": "18-99",
+    "rate_avrage": null,
+    "avg_rate_label": null,
+    "pro_year": "۲۰۲۶",
+    "imdb_rate": "7.80",
+    "categories": [
+     {
+      "title_en": "biography",
+      "title": "بیوگرافی",
+      "link_type": "list",
+      "link_key": "biography"
+     },
+     {
+      "title_en": "documentary",
+      "title": "مستند",
+      "link_type": "list",
+      "link_key": "documentary"
+     }
+    ],
+    "duration": null,
+    "countries": [
+     {
+      "country": "آمریکا",
+      "country_en": "america"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "en"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "مری رابرتسون",
+    "last_watch": null,
+    "is_free_movie": false,
+    "cover_data": {
+     "vertical": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_ver_194557_284.jpg?width=960&quality=80&sharpen=50&secret=RIz99Iqta6XgupFaFL2-cA",
+     "horizontal": "https://static.cdn.asset.filimo.com/flmt/mov_cvr_filimo_hor_194557_519.jpg?width=1920&quality=80&sharpen=50&secret=T2cOOX0tYPOWjxDNEZ4AHw"
+    },
+    "movie_logo": null,
+    "fullscreen": true,
+    "cover_video": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  }
+ ]
+}

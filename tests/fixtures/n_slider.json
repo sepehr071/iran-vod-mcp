@@ -1,0 +1,24 @@
+{
+ "succeeded": true,
+ "result": [
+  {
+   "id": 277479,
+   "caption": "گنگستر",
+   "type": "Series",
+   "imageUrl": "/Content/Upload/Images/7bffdc37-95b1-45d9-b7c8-8e0e65baf326.jpg",
+   "story": "منوچهر و نصرت، فرزندان ناخلف و بیکار خانواده، برای به دست آوردن دل بابای هایده و حمیرا تصمیم به گنگستر بازی می گیرن. ولی این یه بازی ساده نیست...",
+   "year": 1405,
+   "contentPlayAccessType": "None"
+  },
+  {
+   "id": 279191,
+   "caption": "رازهای ماندگاری",
+   "type": "Series",
+   "imageUrl": "/Content/Upload/Images/003a700a-7a95-47d2-be29-a432f69b321b.jpg",
+   "story": "رازهای ماندگاری، حاصل پیوند افسانه های ایرانی و خیال نویسنده است. با این امید که میراث دار آزادگی و پایداری نیاکان مان باشد...",
+   "year": 1405,
+   "contentPlayAccessType": "None"
+  }
+ ],
+ "error": null
+}

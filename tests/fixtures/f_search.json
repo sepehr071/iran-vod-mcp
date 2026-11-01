@@ -1,0 +1,380 @@
+{
+ "data": [
+  {
+   "type": "Row",
+   "id": 3,
+   "attributes": {
+    "id": 3,
+    "tag_id": "1000300",
+    "output_type": "movie",
+    "theme": "thumbnail",
+    "more_type": "infinity",
+    "line_count": 0,
+    "showSerialParent": false,
+    "link_to_episode": null,
+    "link_type": "nolink",
+    "link_key": null,
+    "show_all": true,
+    "has_downvote": false,
+    "list_tag_id": "1000300",
+    "link_text": "نتیجه جستجو:",
+    "dataSource_type": "MoviesById",
+    "dataSource_key": "1000300",
+    "rand_data": false,
+    "limit": 40,
+    "page": 1,
+    "links": {
+     "self": "https://www.filimo.com/api/fa/v1/movie/movie/loadmore/tagid/1000300/more_type/infinity/text/شام ایرانی/perpage/40/page/1",
+     "first": "https://www.filimo.com/api/fa/v1/movie/movie/loadmore/tagid/1000300/more_type/infinity/text/شام ایرانی/perpage/40/page/1",
+     "prev": "https://www.filimo.com/api/fa/v1/movie/movie/loadmore/tagid/1000300/more_type/infinity/text/شام ایرانی/perpage/40/page/1",
+     "next": "https://www.filimo.com/api/fa/v1/movie/movie/loadmore/tagid/1000300/more_type/infinity/text/شام ایرانی/perpage/40/page/2",
+     "more_records": false
+    }
+   },
+   "relationships": {
+    "headersliders": {
+     "data": []
+    },
+    "webinapps": {
+     "data": []
+    },
+    "taglists": {
+     "data": []
+    },
+    "movies": {
+     "data": [
+      {
+       "type": "movies",
+       "id": 150570
+      },
+      {
+       "type": "movies",
+       "id": 6988
+      },
+      {
+       "type": "movies",
+       "id": 28537
+      }
+     ]
+    },
+    "livetvs": {
+     "data": []
+    },
+    "posters": {
+     "data": []
+    },
+    "shorts": {
+     "data": []
+    },
+    "crews": {
+     "data": []
+    },
+    "buttonlists": {
+     "data": []
+    },
+    "menus": {
+     "data": []
+    },
+    "customhtmls": {
+     "data": []
+    },
+    "listinfos": {
+     "data": []
+    },
+    "alerts": {
+     "data": []
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "movies",
+   "id": 150570,
+   "attributes": {
+    "id": "150570",
+    "link_type": "movie",
+    "link_key": "150570",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "150570",
+    "uid": "150570",
+    "movie_title": "شام ایرانی",
+    "movie_title_en": "Iranian Dinner",
+    "tag_id": "1000300",
+    "serial": {
+     "enable": true,
+     "parent_title": "شام ایرانی",
+     "season_id": "0",
+     "serial_part": "0",
+     "parent_id": "150570",
+     "part_text": "قسمت 0ام",
+     "season_text": "فصل 0ام",
+     "last_part": false
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "«شام ایرانی»، نسخه ی ایرانی یک رئالیتی شوی جهانی است که در اغلب کشور ها ساخته شده و طرفداران بسیاری دارد. در شام ایرانی، چهره های شناخته شده  در گروه های چهار نفره یکدیگر را به صرف شام به منزل خود دعوت می کنند. در پایان هر شب، مهمانان به کیفیت شام و میزبانی امتیاز داده و در پایان شب چهارم، کسی که بیشترین امتیاز را دارد به عنوان بهترین میزبان انتخاب می شود. البته این تمام ماجرا نیست...",
+    "publish_date": "2024-10-20 08:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.10",
+    "avg_rate_label": "۸۲%",
+    "pro_year": "۱۴۰۳",
+    "imdb_rate": "0.00",
+    "categories": [
+     {
+      "title_en": "family",
+      "title": "خانوادگی",
+      "link_type": "list",
+      "link_key": "family"
+     },
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     }
+    ],
+    "duration": null,
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": null,
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": 1,
+    "sid": 0,
+    "uuid": "565098c65b72419eb1a6babeed92e44a"
+   }
+  },
+  {
+   "type": "movies",
+   "id": 6988,
+   "attributes": {
+    "id": "6988",
+    "link_type": "movie",
+    "link_key": "6988",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "6988",
+    "uid": "6988",
+    "movie_title": "شام ایرانی",
+    "movie_title_en": "Iranian Dinner",
+    "tag_id": "1000300",
+    "serial": {
+     "enable": true,
+     "parent_title": "شام ایرانی",
+     "season_id": "0",
+     "serial_part": "0",
+     "parent_id": "6988",
+     "part_text": "قسمت 0ام",
+     "season_text": "فصل 0ام",
+     "last_part": false
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "این برنامه صرفا بهانه ای است برای انعکاس بخشی از فرهنگ غنی ایرانی به نام (آداب شام ایرانی). این آداب مشتمل بر آشپزی، غذا خوردن، معاشرت، مهربانی و... می باشد.",
+    "publish_date": "2014-03-21 00:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.00",
+    "avg_rate_label": "۸۰%",
+    "pro_year": "۱۳۹۰",
+    "imdb_rate": "3.60",
+    "categories": [
+     {
+      "title_en": "reality-tv",
+      "title": "ریلیتی شو",
+      "link_type": "list",
+      "link_key": "reality-tv"
+     }
+    ],
+    "duration": null,
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      ""
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "سروش صحت - بیژن بیرنگ",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": 2,
+    "sid": 0,
+    "uuid": "565098c65b72419eb1a6babeed92e44a"
+   }
+  },
+  {
+   "type": "movies",
+   "id": 28537,
+   "attributes": {
+    "id": "28537",
+    "link_type": "movie",
+    "link_key": "28537",
+    "theme": "thumbnail",
+    "output_type": "movie",
+    "movie_id": "28537",
+    "uid": "28537",
+    "movie_title": "شام ایرانی ۲",
+    "movie_title_en": "Iranian Dinner 2",
+    "tag_id": "1000300",
+    "serial": {
+     "enable": true,
+     "parent_title": "شام ایرانی 2",
+     "season_id": "0",
+     "serial_part": "0",
+     "parent_id": "28537",
+     "part_text": "قسمت 0ام",
+     "season_text": "فصل 0ام",
+     "last_part": false
+    },
+    "watermark": false,
+    "HD": false,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": true,
+     "online_release": false,
+     "exclusive": false,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": null,
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "descr": "بازیگران مرد و زن در همه جای دنیا کم تر اهل خانه داری و آشپزی هستند اما وقتی هنرمندان دیگری میهمانشان هستند ، هموطن یا خارجی ، حتما می توانند شرایطی ایجاد کنند که به میهمانانشان خوش بگذرد و البته از انها رای بگیرند . شام ایرانی یک ریالیتی شو است ....",
+    "publish_date": "2020-03-19 08:00:00",
+    "age_range": "15-18",
+    "rate_avrage": "4.10",
+    "avg_rate_label": "۸۲%",
+    "pro_year": "۱۳۹۸",
+    "imdb_rate": "0.00",
+    "categories": [
+     {
+      "title_en": "family",
+      "title": "خانوادگی",
+      "link_type": "list",
+      "link_key": "family"
+     },
+     {
+      "title_en": "drama",
+      "title": "درام",
+      "link_type": "list",
+      "link_key": "drama"
+     }
+    ],
+    "duration": null,
+    "countries": [
+     {
+      "country": "ایران",
+      "country_en": "iran"
+     }
+    ],
+    "dubbed": {
+     "enable": false,
+     "text": ""
+    },
+    "subtitle": {
+     "enable": false,
+     "text": ""
+    },
+    "audio": {
+     "languages": [
+      "fa"
+     ],
+     "isMultiLanguage": false
+    },
+    "language_info": {
+     "flag": null,
+     "text": null
+    },
+    "director": "سعید ابوطالب",
+    "last_watch": null,
+    "is_free_movie": false,
+    "freemium": false,
+    "position": 3,
+    "sid": 0,
+    "uuid": "565098c65b72419eb1a6babeed92e44a"
+   }
+  }
+ ]
+}

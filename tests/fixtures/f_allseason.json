@@ -1,0 +1,88 @@
+{
+ "data": {
+  "type": "Serial",
+  "id": null,
+  "attributes": {
+   "data": [
+    {
+     "serial_season_part": 1,
+     "cnt": 4,
+     "title": "فصل اول",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/1/sort/DESC",
+     "is_active": true
+    },
+    {
+     "serial_season_part": 2,
+     "cnt": 4,
+     "title": "فصل دوم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/2/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 3,
+     "cnt": 4,
+     "title": "فصل سوم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/3/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 4,
+     "cnt": 4,
+     "title": "فصل چهارم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/4/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 5,
+     "cnt": 4,
+     "title": "فصل پنجم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/5/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 6,
+     "cnt": 4,
+     "title": "فصل ششم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/6/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 7,
+     "cnt": 4,
+     "title": "فصل هفتم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/7/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 8,
+     "cnt": 4,
+     "title": "فصل هشتم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/8/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 9,
+     "cnt": 4,
+     "title": "فصل نهم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/9/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 10,
+     "cnt": 4,
+     "title": "فصل دهم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/10/sort/DESC",
+     "is_active": false
+    },
+    {
+     "serial_season_part": 11,
+     "cnt": 4,
+     "title": "فصل یازدهم",
+     "episodes_link": "https://www.filimo.com/api/fa/v1/movie/serial/episodebyseason/parent_id/150570/part/11/sort/DESC",
+     "is_active": false
+    }
+   ],
+   "domain_has_pic": null
+  }
+ }
+}

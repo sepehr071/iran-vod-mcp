@@ -1,0 +1,207 @@
+{
+ "succeeded": true,
+ "result": {
+  "id": 142977,
+  "caption": "بینوایان",
+  "imageUrl": "/Content/Upload/Images/c365db92-2207-4386-b5b9-4e11d8ca6864.jpg",
+  "fullDescription": "",
+  "shortDescription": "",
+  "type": "Movie",
+  "hit": 90,
+  "publishDate": "20220511T062333000Z",
+  "publishInFuture": false,
+  "unknownDatePublish": false,
+  "metaKeywords": "",
+  "year": 1397,
+  "hd": true,
+  "movieLatinName": null,
+  "imdb": null,
+  "mediaDuration": 93,
+  "teaserText": null,
+  "story": "ژان والژان میانسال و فقیر سال‌های زیادی را در زندان سپری کرده و حالا بدون هیچ دارایی باید روزگارش را بگذراند. او به خاطر فرار از زندان و سرقتی که انجام داده، تحت تعقیب یک بازرس سمج به نام ژاور است که قصد دارد هر طور شده والژان را به زندان برگرداند و...",
+  "subtitleLanguage": null,
+  "trailerImageUrl": null,
+  "trailerVideoUrl": null,
+  "backgroundTrailerLandscapeVideoUrl": null,
+  "backgroundTrailerPortraitVideoUrl": null,
+  "backgroundTrailerLandscapeImageUrl": null,
+  "backgroundTrailerPortraitImageUrl": null,
+  "backgroundTrailerDurationInSecond": null,
+  "ageLimit": 2,
+  "hasExclusiveDub": false,
+  "hasPersianDub": false,
+  "hasPersianSubtitle": false,
+  "dubsType": "None",
+  "price": null,
+  "rentDuration": null,
+  "rentDescription": "",
+  "isMarketable": false,
+  "onlineContentType": "Free",
+  "offlineContentType": "Free",
+  "contentPlayAccessType": "Free",
+  "regions": [
+   "Other"
+  ],
+  "casts": [
+   {
+    "castId": 6029,
+    "castName": "پارسا پیروزفر",
+    "castSlug": null,
+    "castRole": "Actor",
+    "castImageUrl": "/Content/Upload/Images/2f55d863-fb50-43ec-b814-e4b6270f5feb.jpg",
+    "displayOrder": 1
+   },
+   {
+    "castId": 8030,
+    "castName": "نوید محمدزاده",
+    "castSlug": null,
+    "castRole": "Actor",
+    "castImageUrl": "/Content/Upload/Images/b1c8cbd2-6dcd-4724-af79-342cecb6ba19.jpg",
+    "displayOrder": 1
+   },
+   {
+    "castId": 1862,
+    "castName": "پری‌ناز ایزدیار",
+    "castSlug": null,
+    "castRole": "Actor",
+    "castImageUrl": "/Content/Upload/Images/24d4bf8e-bd02-41b0-bf6d-4a36a1bed9f1.jpg",
+    "displayOrder": 1
+   },
+   {
+    "castId": 1846,
+    "castName": "سحر دولتشاهی",
+    "castSlug": null,
+    "castRole": "Actor",
+    "castImageUrl": "/Content/Upload/Images/a1d34e4c-a9ec-448f-9c08-6abd157d3335.jpg",
+    "displayOrder": 1
+   },
+   {
+    "castId": 7657,
+    "castName": "هوتن شکیبا",
+    "castSlug": null,
+    "castRole": "Actor",
+    "castImageUrl": "/Content/Upload/Images/d2404d25-3d54-45a2-998d-15ff11964697.jpg",
+    "displayOrder": 1
+   },
+   {
+    "castId": 2352,
+    "castName": "اشکان خطیبی",
+    "castSlug": null,
+    "castRole": "Actor",
+    "castImageUrl": "/Content/Upload/Images/c337dd98-0c23-4c63-a2f9-2ccbe345bfa3.jpg",
+    "displayOrder": 1
+   },
+   {
+    "castId": 55854,
+    "castName": "حسین پارسایی",
+    "castSlug": "",
+    "castRole": "Director",
+    "castImageUrl": "/Content/Upload/Images/4a385624-1909-4098-a69e-794d783f233b.jpg",
+    "displayOrder": 2
+   }
+  ],
+  "categories": [
+   {
+    "categoryId": 34,
+    "categoryName": "درام",
+    "categorySlug": "درام",
+    "categoryParentId": null,
+    "mainCategoryGroupId": 1176,
+    "categoryParentPath": null,
+    "categryGroupInfo": {
+     "groupId": 1176,
+     "groupCaption": "درام",
+     "groupSlug": "drama",
+     "categoryIdList": [
+      1,
+      34
+     ]
+    }
+   },
+   {
+    "categoryId": 56,
+    "categoryName": "عاشقانه",
+    "categorySlug": "عاشقانه",
+    "categoryParentId": null,
+    "mainCategoryGroupId": 1178,
+    "categoryParentPath": null,
+    "categryGroupInfo": {
+     "groupId": 1178,
+     "groupCaption": "عاشقانه",
+     "groupSlug": "romance",
+     "categoryIdList": [
+      17,
+      56
+     ]
+    }
+   },
+   {
+    "categoryId": 58,
+    "categoryName": "فیلم تئاتر",
+    "categorySlug": "فیلم تئاتر",
+    "categoryParentId": null,
+    "mainCategoryGroupId": 1207,
+    "categoryParentPath": null,
+    "categryGroupInfo": {
+     "groupId": 1207,
+     "groupCaption": "فیلم تئاتر",
+     "groupSlug": "film-theater",
+     "categoryIdList": [
+      58
+     ]
+    }
+   },
+   {
+    "categoryId": 86,
+    "categoryName": "موزیکال",
+    "categorySlug": "Musical",
+    "categoryParentId": null,
+    "mainCategoryGroupId": 1195,
+    "categoryParentPath": null,
+    "categryGroupInfo": {
+     "groupId": 1195,
+     "groupCaption": "موزیکال",
+     "groupSlug": "rhythmic",
+     "categoryIdList": [
+      68,
+      86
+     ]
+    }
+   }
+  ],
+  "voiceList": [
+   {
+    "languageId": 1,
+    "name": "فارسی",
+    "languageCulture": "Persian",
+    "uniqueSeoCode": "Fa",
+    "languageCode": null,
+    "displayLabel": null
+   }
+  ],
+  "subtitleList": [],
+  "ageRange": {
+   "mediaAgeRangeId": 2,
+   "value": 12,
+   "caption": "نمایش محتوا تا ۱۵ سال",
+   "isKid": false,
+   "description": "محتوای نامناسب برای کودکان، نیاز به نظارت والدین برای سنین قبل از نوجوانی"
+  },
+  "mediaRegionType": "Iranian",
+  "likeCount": 4876,
+  "dislikeCount": 512,
+  "purchasableMovieStatusType": "None",
+  "countryProducers": [
+   {
+    "id": 0,
+    "name": "ایران",
+    "slug": "Iran",
+    "code": null,
+    "iso": null,
+    "flag": null
+   }
+  ],
+  "seasons": []
+ },
+ "error": null
+}

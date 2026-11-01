@@ -1,0 +1,280 @@
+{
+ "data": [
+  {
+   "type": "Row",
+   "id": 1,
+   "attributes": {
+    "id": 1,
+    "title": "فصل اول",
+    "link_text": "فصل اول",
+    "tag_id": null,
+    "output_type": "movie",
+    "theme": "serialList",
+    "more_type": "slider",
+    "line_count": 1,
+    "showSerialParent": false,
+    "link_type": "nolink",
+    "link_key": null,
+    "show_all": false,
+    "row_wrap_mobile": true
+   },
+   "relationships": {
+    "headersliders": {
+     "data": []
+    },
+    "taglists": {
+     "data": []
+    },
+    "movies": {
+     "data": [
+      {
+       "type": "movies",
+       "id": 150571
+      },
+      {
+       "type": "movies",
+       "id": 150715
+      },
+      {
+       "type": "movies",
+       "id": 150886
+      }
+     ]
+    },
+    "posters": {
+     "data": []
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "movies",
+   "id": 150571,
+   "attributes": {
+    "id": "150571",
+    "link_type": "movie",
+    "link_key": "6wka0",
+    "theme": "serialList",
+    "output_type": "movie",
+    "movie_id": "150571",
+    "uid": "6wka0",
+    "movie_title": "فصل ۱ قسمت ۱",
+    "movie_title_en": "Iranian Dinner S01E01",
+    "tag_id": null,
+    "serial": {
+     "enable": true,
+     "parent_title": "فصل 1 قسمت 1",
+     "season_id": "1",
+     "serial_part": "1",
+     "parent_id": "150570",
+     "part_text": "قسمت اول",
+     "season_text": "فصل اول",
+     "last_part": false
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": {
+     "like_url": "signin",
+     "dislike_url": "signin"
+    },
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "cat_1": "26",
+    "cat_2": "0",
+    "rate_avrage": "3.84",
+    "descr": "کمند امیر سلیمانی تصمیم می گیرد که برای برادرش  سپند و همسر نوعروس او مونا کرمی مراسم شام یا پاگشا برپا کند . او دوستان دیگر این زوج را هم به این میهمانی دعوت کرده است .\r\nاما مشکلات دیگری بر سر راه اوست: میهمان ناخوانده و دو داور سخت گیر که قرار است به پذیرایی او امتیاز بدهند...همه چیز آن گونه  که او دوست دارد پیش نمی رود...",
+    "descr_en": "Kamand Amirsoleimani decides to invite her brother Sepand and his new bride, Mona Karami, to dinner and has also invited their friends. But there are some other challenges such as an uninvited guest, two meticulous judges who will score her hosting. Not everything goes as she wishes.",
+    "movie_title_fa": null,
+    "serial_season_part": "1",
+    "serial_parent_new": "150570",
+    "rate_cnt": "45981",
+    "duration": "4272",
+    "minute_duration": "71 دقیقه",
+    "serial_part": "۱",
+    "enable_wish": null,
+    "wish_link": "signin",
+    "user_rate": null,
+    "country": "iran",
+    "season_id": "150571",
+    "is_free_movie": false,
+    "full_title": "شام ایرانی - فصل 1 قسمت 1",
+    "movie_title_seo": null,
+    "publish_date": "2024-10-20 08:00:00",
+    "publish_text": null,
+    "show_descr": true,
+    "timeLeftToPublish": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 150715,
+   "attributes": {
+    "id": "150715",
+    "link_type": "movie",
+    "link_key": "wl60k",
+    "theme": "serialList",
+    "output_type": "movie",
+    "movie_id": "150715",
+    "uid": "wl60k",
+    "movie_title": "فصل ۱ قسمت ۲",
+    "movie_title_en": "Iranian Dinner S01E02",
+    "tag_id": null,
+    "serial": {
+     "enable": true,
+     "parent_title": "فصل 1 قسمت 2",
+     "season_id": "1",
+     "serial_part": "2",
+     "parent_id": "150570",
+     "part_text": "قسمت دوم",
+     "season_text": "فصل اول",
+     "last_part": false
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": {
+     "like_url": "signin",
+     "dislike_url": "signin"
+    },
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "cat_1": "26",
+    "cat_2": "0",
+    "rate_avrage": "4.29",
+    "descr": "حالا نوبت مونا کرمی است که به کمک سپند مهمانی مفصل خواهر شوهرش کمند امیر سلیمانی را جبران کند؛ اما  به هرحال او کمند را مهم ترین رقیبش می داند.\r\nالیکا عبدالرزاقی چشم دیدن داورها را ندارد و شمشیر را برای آن ها از رو بسته است. سپند همسرش را پیشاپیش پیروز رقابت شام ایرانی می داند.",
+    "descr_en": "It&#039;s Mona Karami&#039;s turn to repay for the elaborate party of her sister-in-law, Kamand Soleimani. She considers Kamand the most important competitor. Elika Abdorazaghi does not like the judges and shows hostility to them. Sepand already thinks his wife is the winner of this competition.",
+    "movie_title_fa": null,
+    "serial_season_part": "1",
+    "serial_parent_new": "150570",
+    "rate_cnt": "34808",
+    "duration": "3897",
+    "minute_duration": "64 دقیقه",
+    "serial_part": "۲",
+    "enable_wish": null,
+    "wish_link": "signin",
+    "user_rate": null,
+    "country": "iran",
+    "season_id": "150715",
+    "is_free_movie": false,
+    "full_title": "شام ایرانی - فصل 1 قسمت 2",
+    "movie_title_seo": null,
+    "publish_date": "2024-10-27 08:00:00",
+    "publish_text": null,
+    "show_descr": true,
+    "timeLeftToPublish": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  },
+  {
+   "type": "movies",
+   "id": 150886,
+   "attributes": {
+    "id": "150886",
+    "link_type": "movie",
+    "link_key": "tzxvi",
+    "theme": "serialList",
+    "output_type": "movie",
+    "movie_id": "150886",
+    "uid": "tzxvi",
+    "movie_title": "فصل ۱ قسمت ۳",
+    "movie_title_en": "Iranian Dinner S01E03",
+    "tag_id": null,
+    "serial": {
+     "enable": true,
+     "parent_title": "فصل 1 قسمت 3",
+     "season_id": "1",
+     "serial_part": "3",
+     "parent_id": "150570",
+     "part_text": "قسمت سوم",
+     "season_text": "فصل اول",
+     "last_part": false
+    },
+    "watermark": true,
+    "HD": true,
+    "watch_list_action": "login",
+    "commingsoon_txt": "",
+    "badge": {
+     "free": false,
+     "backstage": false,
+     "vision": false,
+     "hear": false,
+     "online_release": false,
+     "exclusive": true,
+     "commingsoon": false,
+     "youtube": false
+    },
+    "rate_enable": true,
+    "rate_enable_by_cnt": true,
+    "rate_info": {
+     "like_url": "signin",
+     "dislike_url": "signin"
+    },
+    "content_owner": "internal",
+    "serial_show_type": "normal",
+    "cat_1": "26",
+    "cat_2": "0",
+    "rate_avrage": "4.06",
+    "descr": "نوبت الیکا عبدالرزاقی برای پاگشای سپند و مونا فرا رسیده .\r\nهیچ کس نمی داند که او چرا تا کنون مدرک بین المللی آشپزی اش را پنهان کرده است.\r\nالیکا تا توانسته برای  داورها  کری خوانده و امشب آن ها می خواهند همه کارهای او را زیر ذره بین ببرند. امیر کربلایی زاده فکر می کند الیکا همه انها را ایستگاه کرده و...",
+    "descr_en": "It&#039;s Elika Abdorazaghi&#039;s turn to invite Sepand and Mona over. No one knows why she has been hiding her international culinary degree. Elika has been boasting in front of the judges and tonight the two judges want to scrutinize everything about her. \r\nKarbalayizadeh thinks Elika has been pulling everyone&#039;s leg.",
+    "movie_title_fa": null,
+    "serial_season_part": "1",
+    "serial_parent_new": "150570",
+    "rate_cnt": "33354",
+    "duration": "4826",
+    "minute_duration": "80 دقیقه",
+    "serial_part": "۳",
+    "enable_wish": null,
+    "wish_link": "signin",
+    "user_rate": null,
+    "country": "iran",
+    "season_id": "150886",
+    "is_free_movie": false,
+    "full_title": "شام ایرانی - فصل 1 قسمت 3",
+    "movie_title_seo": null,
+    "publish_date": "2024-11-03 08:00:00",
+    "publish_text": null,
+    "show_descr": true,
+    "timeLeftToPublish": null,
+    "freemium": false,
+    "position": null,
+    "sid": null,
+    "uuid": null
+   }
+  }
+ ]
+}
