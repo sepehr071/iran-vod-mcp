@@ -220,7 +220,9 @@ async def _f_pages(
         (
             r["attributes"]["links"]["self"]
             for r in doc.get("data", [])
-            if r["attributes"].get("more_type") == "infinity" and (r["attributes"].get("links") or {}).get("self")
+            if r["attributes"].get("more_type") == "infinity"
+            and "/loadmore/"
+            in ((r["attributes"].get("links") or {}).get("self") or "")  # a country filter can link a partner feed
         ),
         None,
     )
@@ -633,7 +635,8 @@ async def vod_new(
 
     async def namava():
         doc = await fetch(
-            f"{NAMAVA}/v1.0/category-groups/persian/latest-medias", {"pi": 1, "ps": limit if kind == "all" else 40}
+            f"{NAMAVA}/v1.0/category-groups/persian/latest-medias",
+            {"pi": 1, "ps": limit if kind == "all" else 30},  # the API caps ps at 30
         )
         return [i for i in map(_n_item, doc.get("result") or []) if kind in ("all", i["kind"])][:limit]
 
@@ -958,7 +961,9 @@ async def vod_collection(
     elif what == "trending":
         doc = await fetch(f"{NAMAVA}/v1.0/search/trends", {"pageCount": limit, "pageIndex": page})
     else:
-        doc = await fetch(f"{NAMAVA}/v1.0/medias/{what.replace('_', '-')}", paging)
+        doc = await fetch(
+            f"{NAMAVA}/v1.0/medias/{'most-popular' if what == 'popular' else what.replace('_', '-')}", paging
+        )
     title = NAMAVA_SPECIAL.get(what)
     if what == "post":
         title = ((await fetch(f"{NAMAVA}/v1.0/post-groups/{arg}")).get("result") or {}).get("caption")
