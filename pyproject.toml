@@ -1,6 +1,6 @@
 [project]
 name = "iran-vod-mcp"
-version = "0.1.1"
+version = "0.2.0"
 description = "Unofficial read-only MCP server for the Iranian streaming catalogs Filimo and Namava: search, details, episodes, new, genres."
 readme = "README.md"
 license = "MIT"
