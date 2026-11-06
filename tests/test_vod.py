@@ -94,7 +94,7 @@ async def test_filimo_series_details_use_series_name(client, api):
     api[F + "movie/related/movieid/150570"] = fixture("f_related.json")
     r = (await client.call_tool("vod_title", {"ref": "filimo:150570"})).structured_content
     assert r["title"] == "شام ایرانی" and r["kind"] == "series" and r["season_count"] == 11
-    assert r["year"] == 1403 and r["rating"] == 4.1 and r["votes"] is None and r["summary"].startswith("«شام ایرانی»")
+    assert r["year"] == 1403 and r["rating"] == 4.1 and "votes" not in r and r["summary"].startswith("«شام ایرانی»")
     assert "قسمت آخر" in r["latest_episode"]["title"]
     # the series' own cast comes from the "بازی\u200cهای <actor>" related rows, not from the latest episode text
     assert r["cast"] == ["بهنوش بختیاری", "پژمان بازغی", "یوسف تیموری"]

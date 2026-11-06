@@ -23,7 +23,7 @@ Limit = Annotated[int, Field(description="How many titles to return.", ge=1, le=
 Ref = Annotated[
     str,
     Field(
-        description="Title ref from vod_search, vod_new, vod_browse or vod_featured, e.g. 'filimo:0bd4p', 'filimo:150570' or 'namava:series:2377'.",
+        description="Title ref from a search or list, e.g. 'filimo:0bd4p', 'namava:series:2377'.",
         pattern=r"^(filimo:[A-Za-z0-9]{3,12}|namava:(movie|series):\d{1,9})$",
     ),
 ]
@@ -156,7 +156,6 @@ def _f_item(a: dict[str, Any]) -> dict[str, Any]:
         "kind": "series" if series else "movie",
         "year": _int(a.get("pro_year")),
         "rating": _num(a.get("rate_avrage")),
-        "rating_pct": _int(a.get("avg_rate_label")),
         "imdb": _num(a.get("imdb_rate")),
         "genres": genres,
         "age": a.get("age_range"),
@@ -351,22 +350,19 @@ async def vod_search(
     query: Annotated[
         str,
         Field(
-            description="Title words in Persian (or the Latin title for Filimo), e.g. شام ایرانی.",
+            description="Title in Persian (Filimo also Latin).",
             min_length=1,
             max_length=100,
         ),
     ],
-    site: Annotated[
-        Site, Field(description="Which catalog to search; 'both' (default) searches Filimo and Namava.")
-    ] = "both",
+    site: Annotated[Site, Field(description="Catalog to search.")] = "both",
     kind: Annotated[Kind, Field(description="Only movies, only series, or all.")] = "all",
     limit: Annotated[int, Field(description="Max titles per site.", ge=1, le=20)] = 8,
 ) -> dict[str, Any]:
     """Search the Filimo and Namava catalogs by title and return matching movies and series with a ref for each.
 
-    Use first when the user names a title. Each hit has a `ref` to pass to vod_title (full details), vod_episodes
-    (series seasons and episodes). Use vod_where instead to learn which service has one specific title.
-    Filimo hits include year, rating, genres and a summary; Namava search only returns title, kind and year.
+    Use first when the user names a title; pass a `ref` to vod_title or vod_episodes. Namava hits carry only
+    title, kind and year.
     """
     jobs = {}
     if site in ("both", "filimo"):
@@ -378,13 +374,11 @@ async def vod_search(
 
 @tool("Where to watch a title")
 async def vod_where(
-    title: Annotated[
-        str, Field(description="Exact or near-exact title in Persian, e.g. شام ایرانی.", min_length=1, max_length=100)
-    ],
+    title: Annotated[str, Field(description="Title in Persian.", min_length=1, max_length=100)],
     year: Annotated[
         int | None,
         Field(
-            description="Production year (Persian calendar like 1403, or Gregorian) to tell remakes apart.",
+            description="Production year, Persian (1403) or Gregorian, to tell remakes apart.",
             ge=1300,
             le=2100,
         ),
@@ -392,9 +386,8 @@ async def vod_where(
 ) -> dict[str, Any]:
     """Tell which of Filimo and Namava carries a title, by searching both and matching the title text.
 
-    Use for "is X on Filimo or Namava". Returns the matching titles per site (exact title match first, then titles
-    that contain the words) and `available_on`. Only the catalogs are checked, not whether a title needs a
-    subscription; use vod_title for that. Pass vod_search results to vod_title for details.
+    Use for "is X on Filimo or Namava". Returns `exact` and `similar` titles per site and `available_on`; it does
+    not check subscriptions.
     """
     found = await vod_search(title, "both", "all", 10)
     key = _norm(title)
@@ -431,11 +424,8 @@ def _n_cast(casts: list[dict[str, Any]]) -> dict[str, list[str]]:
 async def vod_title(ref: Ref) -> dict[str, Any]:
     """Get full details of one movie or series on Filimo or Namava: synopsis, genres, year, rating, age rating, cast, director.
 
-    Use after vod_search, vod_browse or vod_new with the `ref` of a hit. For a series, follow with vod_episodes to
-    list seasons and episodes; vod_related gives similar titles and vod_person a cast member's filmography. Ratings
-    differ per site: Filimo gives stars out of 5 with a vote count and an IMDb score; Namava gives like and dislike
-    counts (and an IMDb score for newer titles). Filimo's cast for a movie is the names in its description text; for a
-    series it is the actors Filimo features (a few main ones). Namava `people` maps each name to a ref for vod_person.
+    Use with the `ref` of a search or list hit. For a series follow with vod_episodes. Filimo cast is parsed from
+    the description (series: a few featured actors); Namava `people` maps each name to a ref for vod_person.
     """
     site, kind, id_ = _parse_ref(ref)
     if site == "namava":
@@ -485,7 +475,7 @@ async def vod_title(ref: Ref) -> dict[str, Any]:
         "site": "filimo",
         "ref": f"filimo:{id_}",
         "title": g.get("movie_name") or g.get("title"),
-        "title_en": g.get("title_en") or None,
+        "title_en": re.sub(r"\s+S\d+E\d+$", "", g.get("title_en") or "") or None,
         "kind": "series" if series else "movie",
         "year": g.get("pro_year"),
         "genres": [c["title"] for c in g.get("categories") or []],
@@ -507,7 +497,12 @@ async def vod_title(ref: Ref) -> dict[str, Any]:
     }
     if series:
         # The detail call describes the latest episode; the series' own year, genres and synopsis are in the search row.
-        hit = next((i for i in await _f_search(out["title"], "series", 20) if i["ref"] == out["ref"]), None)
+        found, related = await asyncio.gather(
+            _f_search(out["title"], "series", 20), _f_related(id_), return_exceptions=True
+        )
+        if isinstance(found, BaseException):
+            raise found
+        hit = next((i for i in found if i["ref"] == out["ref"]), None)
         out["votes"] = out["rating"] = out["rating_pct"] = out["imdb"] = out["duration"] = None  # latest-episode values
         if hit:
             out.update(
@@ -516,10 +511,13 @@ async def vod_title(ref: Ref) -> dict[str, Any]:
             out["age_rating"] = hit["age"] or out["age_rating"]
         out["season_count"] = _int(g.get("season_count"))
         out["latest_episode"] = {"title": g.get("title"), "summary": _text(g.get("descr"), 400)}
-        try:  # the series' own cast: Filimo names its main actors and writers in the titles of the related rows
-            people = _f_people(await _f_related(id_))
-        except ApiError:
+        # the series' own cast: Filimo names its main actors and writers in the titles of the related rows
+        if isinstance(related, ApiError):
             people = {"cast": [], "writers": []}
+        elif isinstance(related, BaseException):
+            raise related
+        else:
+            people = _f_people(related)
         if people["cast"]:
             out["cast"] = people["cast"]
         out["writers"] = people["writers"]
@@ -531,15 +529,12 @@ async def vod_title(ref: Ref) -> dict[str, Any]:
 @tool("Series seasons and episodes")
 async def vod_episodes(
     ref: Ref,
-    season: Annotated[
-        int | None, Field(description="Season number (1 = first). Default: the latest season.", ge=1, le=60)
-    ] = None,
+    season: Annotated[int | None, Field(description="Season number; default latest.", ge=1, le=60)] = None,
     limit: Annotated[int, Field(description="Max episodes to return.", ge=1, le=100)] = 30,
 ) -> dict[str, Any]:
     """List the seasons of a series and the episodes of one season (title, summary, length, publish date).
 
-    Use after vod_search or vod_title when the user wants episodes, how many seasons exist or the newest episode.
-    Takes a series ref; a movie ref returns an error. Default season is the latest. Streaming links are not provided.
+    Use for episodes, season count or the newest episode. Needs a series ref (a movie ref errors); no streaming links.
     """
     site, kind, id_ = _parse_ref(ref)
     if site == "namava":
@@ -616,14 +611,14 @@ def _f_rows_raw(doc: dict[str, Any]) -> list[tuple[str, list[dict[str, Any]]]]:
 
 @tool("New releases")
 async def vod_new(
-    site: Annotated[Site, Field(description="Which catalog; 'both' (default) returns two lists.")] = "both",
+    site: Annotated[Site, Field(description="Catalog.")] = "both",
     kind: Annotated[Kind, Field(description="Only movies, only series, or all.")] = "all",
     limit: Limit = 12,
 ) -> dict[str, Any]:
     """List the newest titles added to Filimo and Namava, most recent first.
 
-    Use for "what is new on Filimo/Namava". Filimo lists include year, rating and summary; Namava lists only title
-    and kind (call vod_title for more). Use vod_featured for what each site promotes on its front page instead.
+    Use for "what is new on Filimo/Namava". Namava lists carry only title and kind. For front-page promotions use
+    vod_featured.
     """
     out: dict[str, Any] = {}
 
@@ -649,27 +644,27 @@ async def vod_new(
 
 @tool("Front-page picks")
 async def vod_featured(
-    site: Annotated[Site, Field(description="Which catalog; 'both' (default) returns both.")] = "both",
+    site: Annotated[Site, Field(description="Catalog.")] = "both",
     per_row: Annotated[int, Field(description="Titles per row.", ge=1, le=12)] = 6,
     kind: Annotated[
         Kind,
-        Field(
-            description="Filimo only: use the Movies page or the Series page rows (the Series page has the popular series row)."
-        ),
+        Field(description="Filimo only: rows of the Movies or Series page."),
     ] = "all",
 ) -> dict[str, Any]:
     """Show what Filimo and Namava promote right now: Filimo's front-page rows (new, popular, box office, genres) and Namava's top slider and top list.
 
-    Use for "what is popular / trending on Filimo or Namava". These are editorial picks, not view counts. Take a
-    `ref` from here to vod_title for details. For Namava's most-viewed list use vod_collection(key="namava:popular").
+    Use for "what is popular / trending". Editorial picks, not view counts; for Namava's most-viewed list use
+    vod_collection(key="namava:popular").
     """
     out: dict[str, Any] = {}
     if site in ("both", "filimo"):
         doc = await fetch(_f_list(1, kind=kind))
         out["filimo"] = [{"row": t, "titles": items[:per_row]} for t, items in _f_rows(doc) if t][:8]
     if site in ("both", "namava"):
-        slider = await fetch(f"{NAMAVA}/v3.0/medias/sliders/1316")
-        tops = await fetch(f"{NAMAVA}/v1.0/category-groups/tops/latest-medias", {"pi": 1, "ps": per_row})
+        slider, tops = await asyncio.gather(
+            fetch(f"{NAMAVA}/v3.0/medias/sliders/1316"),
+            fetch(f"{NAMAVA}/v1.0/category-groups/tops/latest-medias", {"pi": 1, "ps": per_row}),
+        )
         out["namava"] = [
             {
                 "row": "اسلایدر صفحه اول",
@@ -692,8 +687,7 @@ async def vod_featured(
 async def vod_genres() -> dict[str, Any]:
     """List the genre names vod_browse accepts for Filimo and Namava, with the English aliases.
 
-    Use before vod_browse when unsure of a genre name. Persian names work for both sites; English aliases such as
-    comedy or drama work too. Filimo also takes sort and country filters (see vod_browse).
+    Use before vod_browse when unsure of a genre name; also lists the Filimo sort and country values.
     """
     return {
         "filimo": [
@@ -722,29 +716,25 @@ async def vod_browse(
     genre: Annotated[
         str,
         Field(
-            description="Genre name in Persian or English, e.g. کمدی, comedy, درام, documentary. See vod_genres.",
+            description="Genre in Persian or English, e.g. کمدی, comedy. See vod_genres.",
             min_length=1,
             max_length=40,
         ),
     ],
-    site: Annotated[Site, Field(description="Which catalog; 'both' (default) returns two lists.")] = "both",
-    kind: Annotated[
-        Kind, Field(description="Only movies, only series, or all. Namava ignores this and returns both kinds.")
-    ] = "all",
+    site: Annotated[Site, Field(description="Catalog.")] = "both",
+    kind: Annotated[Kind, Field(description="Namava ignores this.")] = "all",
     sort: Annotated[
         Literal["default", "newest_added", "year_new", "year_old", "rating", "imdb"],
-        Field(description="Filimo only: order of the list. Namava always lists newest first."),
+        Field(description="Filimo only; Namava is newest first."),
     ] = "default",
     country: Annotated[
         str | None,
-        Field(
-            description="Filimo only: producer country filter such as iran, america, turkey, s_korea (list in vod_genres)."
-        ),
+        Field(description="Filimo only: country such as iran, turkey, s_korea (see vod_genres)."),
     ] = None,
     page: Annotated[
         int,
         Field(
-            description="Page number, 1 = first. Filimo pages reach about 200 titles per filter (5 site pages of 40).",
+            description="Page, 1 = first (Filimo reaches ~200 titles).",
             ge=1,
             le=50,
         ),
@@ -753,9 +743,8 @@ async def vod_browse(
 ) -> dict[str, Any]:
     """List movies and series of one genre on Filimo and Namava, with Filimo's sort and country filters.
 
-    Use for "best comedy series on Filimo", "Iranian dramas", "new documentaries". Filimo rows carry year, rating,
-    IMDb and summary; Namava rows only title, kind and id (use vod_title). Next: vod_title or vod_episodes. For themed
-    lists (IMDb top 250, Oscar, kids, coming soon) use vod_collections instead.
+    Use for "best comedy series on Filimo", "Iranian dramas". Namava rows carry only title, kind and id. For themed
+    lists (IMDb top 250, Oscar, kids) use vod_collections.
     """
     if country and country not in COUNTRIES:
         raise ApiError(f"Unknown country '{country}'. Use one of: {', '.join(sorted(COUNTRIES))}.")
@@ -829,19 +818,18 @@ async def vod_person(
     name: Annotated[
         str,
         Field(
-            description="Person's name in Persian (Filimo also takes the Latin name), e.g. پارسا پیروزفر; or a 'namava:person:<id>' ref from vod_title.",
+            description="Name in Persian (Filimo also Latin), or a 'namava:person:<id>' ref from vod_title.",
             min_length=2,
             max_length=60,
         ),
     ],
-    site: Annotated[Site, Field(description="Which catalog; 'both' (default) looks on Filimo and Namava.")] = "both",
+    site: Annotated[Site, Field(description="Catalog.")] = "both",
     limit: Annotated[int, Field(description="Max titles per site.", ge=1, le=40)] = 15,
 ) -> dict[str, Any]:
     """Look up an actor, director or writer on Filimo and Namava: short bio and the titles they appear in.
 
-    Use for "what has X acted in / directed on Filimo or Namava". Titles carry a `ref` for vod_title. Filimo gives
-    birth date and place when it has them; Namava gives a bio text. A name matches the first search hit (exact name
-    first); `other_matches` lists further people with similar names. Series appear once, not per episode.
+    Use for "what has X acted in / directed". Titles carry a `ref`. The name matches the first hit; `other_matches`
+    lists similar names.
     """
     jobs = {}
     if site in ("both", "filimo") and not name.startswith("namava:person:"):
@@ -860,9 +848,8 @@ async def vod_related(
 ) -> dict[str, Any]:
     """List titles similar to one movie or series on Filimo or Namava ("viewers also watch").
 
-    Use after vod_title when the user wants more like it. Filimo also returns its related rows (more by the same
-    actors or writer, same genre and decade) and the featured actors and writers; Namava returns one recommendation list.
-    Take a `ref` from the result to vod_title.
+    Use when the user wants more like a title. Filimo also returns related rows (same actors, genre) and featured
+    people; Namava one list.
     """
     site, _, id_ = _parse_ref(ref)
     if site == "namava":
@@ -893,13 +880,12 @@ async def _n_post_groups() -> list[dict[str, str]]:
 
 @tool("List collections")
 async def vod_collections(
-    site: Annotated[Site, Field(description="Which catalog; 'both' (default) lists both.")] = "both",
+    site: Annotated[Site, Field(description="Catalog.")] = "both",
 ) -> dict[str, Any]:
     """List the curated lists vod_collection can open on Filimo and Namava: IMDb top 250, Oscar, kids, coming soon and more.
 
-    Use when the user asks for a themed list (best-of, festival winners, kids, Korean or Turkish series, true stories).
-    Each entry has a `key` to pass to vod_collection. Namava category groups (any slug from vod_genres) also work as
-    `namava:category:<slug>`.
+    Use for a themed list (best-of, festival winners, kids, Korean or Turkish series). Pass an entry's `key` to
+    vod_collection; Namava genre slugs also work as `namava:category:<slug>`.
     """
     out: dict[str, Any] = {}
     if site in ("both", "filimo"):
@@ -916,26 +902,23 @@ async def vod_collection(
     key: Annotated[
         str,
         Field(
-            description="A key from vod_collections, e.g. 'filimo:imdbtop250', 'filimo:animated_under_15/under_6', 'namava:popular', 'namava:coming_soon', 'namava:post:1437' or 'namava:category:persian'.",
+            description="Key from vod_collections, e.g. 'filimo:imdbtop250', 'namava:popular', 'namava:post:1437'.",
             pattern=r"^(filimo:[A-Za-z0-9_]{1,40}(/[A-Za-z0-9_]{1,30})?|namava:(popular|latest_movies|latest_series|coming_soon|trending|post:\d{1,6}|category:[A-Za-z0-9 -]{2,30}))$",
         ),
     ],
     kind: Annotated[Kind, Field(description="Only movies, only series, or all.")] = "all",
     sort: Annotated[
         Literal["default", "newest_added", "year_new", "year_old", "rating", "imdb"],
-        Field(description="Filimo only: order of the list (not for the kids age keys)."),
+        Field(description="Filimo only (not kids age keys)."),
     ] = "default",
-    country: Annotated[
-        str | None, Field(description="Filimo only: producer country filter such as iran, turkey (see vod_genres).")
-    ] = None,
+    country: Annotated[str | None, Field(description="Filimo only: country such as iran (see vod_genres).")] = None,
     page: Annotated[int, Field(description="Page number, 1 = first.", ge=1, le=20)] = 1,
     limit: Limit = 15,
 ) -> dict[str, Any]:
     """Show the titles of one curated list on Filimo or Namava, such as the IMDb top 250 or coming soon.
 
-    Use after vod_collections. Filimo lists accept sort and country filters and reach about 200 titles; Namava lists
-    are fixed (newest or editorial order, `upcoming` marks titles without a release date). The Filimo key 'kids' opens
-    the kids home page as several rows. Next: vod_title with a `ref`.
+    Use after vod_collections. Namava lists are fixed (`upcoming` marks titles without a release date); the Filimo
+    key 'kids' returns several rows.
     """
     if country and country not in COUNTRIES:
         raise ApiError(f"Unknown country '{country}'. Use one of: {', '.join(sorted(COUNTRIES))}.")
@@ -976,11 +959,13 @@ async def vod_collection(
 async def vod_plans() -> dict[str, Any]:
     """Show Namava's public subscription plans and prices (Filimo's prices are not available in its JSON API).
 
-    Use for "how much is a Namava subscription". Prices are in toman before 10% VAT. `price` is the list price,
-    `price_new_user` the discounted price shown to new users (what a guest sees); `auto_renew` is the monthly plan that
-    renews itself. Filimo shows its prices only in its payment page (https://www.filimo.com/payment).
+    Use for "how much is a Namava subscription". Prices are toman before 10% VAT; `price_new_user` is the guest
+    discount price; `auto_renew` is the self-renewing monthly plan.
     """
-    doc = (await fetch(f"{NAMAVA}/v2.0/users/subscriptions")).get("result") or {}
+    doc, renew_doc = await asyncio.gather(
+        fetch(f"{NAMAVA}/v2.0/users/subscriptions"), fetch(f"{NAMAVA}/v1.0/direct-debit/subscriptions")
+    )
+    doc = doc.get("result") or {}
     plans = [
         {
             "name": p.get("name"),
@@ -995,7 +980,7 @@ async def vod_plans() -> dict[str, Any]:
         }
         for p in doc.get("subscriptionList") or []
     ]
-    renew = (await fetch(f"{NAMAVA}/v1.0/direct-debit/subscriptions")).get("result") or []
+    renew = renew_doc.get("result") or []
     return {
         "namava": {
             "plans": plans,
